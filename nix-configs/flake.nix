@@ -7,14 +7,6 @@
     nix-darwin.url = "github:nix-darwin/nix-darwin/nix-darwin-25.11";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli/nix-homebrew";
-    homebrew-core = {
-      url = "github:homebrew/homebrew-core";
-      flake = false;
-    };
-    homebrew-cask = {
-      url = "github:homebrew/homebrew-cask";
-      flake = false;
-    };
   };
 
   outputs =
@@ -24,8 +16,6 @@
       nixpkgs,
       unstable,
       nix-homebrew,
-      homebrew-core,
-      homebrew-cask,
     }:
     let
       userConfig = import ../user-specific/identity.nix;
@@ -63,8 +53,6 @@
 
               # Declarative tap management
               taps = {
-                "homebrew/homebrew-core" = homebrew-core;
-                "homebrew/homebrew-cask" = homebrew-cask;
               };
 
               # Enable fully-declarative tap management

@@ -41,15 +41,15 @@
 
     dock = {
       autohide = false;
-      orientation = "left";
+      orientation = "bottom";
       tilesize = 32;
       minimize-to-application = true;
       show-recents = false;
       # Disable hot corners
-      wvous-tl-corner = 1;
-      wvous-tr-corner = 1;
-      wvous-bl-corner = 1;
-      wvous-br-corner = 1;
+      wvous-tl-corner = 6;
+      wvous-tr-corner = 2;
+      wvous-bl-corner = 3;
+      wvous-br-corner = 12;
     };
 
     finder = {

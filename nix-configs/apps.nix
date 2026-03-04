@@ -24,6 +24,7 @@
     pkgs.git # Distributed version control system
     pkgs.go-task # Task runner / simpler Make alternative written in Go
     pkgs.htop # An interactive process viewer
+    pkgs.iterm2 # Replacement for Terminal and the successor to iTerm
     pkgs.languagetool # A proofreading program, similar to Grammarly
     unstablePkgs.mactop # Terminal-based monitoring tool for Apple Silicon chips
     pkgs.mc # CLI-based file manager like Norton Commander
@@ -63,22 +64,6 @@
       # "bar"
     ];
     casks = [
-      "appcleaner"
-      "bitwarden"
-      "docker-desktop"
-      "gimp"
-      "hot"
-      "keka"
-      "logi-options+"
-      "maccy"
-      "megasync"
-      "notion"
-      "plexamp"
-      "slack"
-      "tiles"
-      "vlc"
-      "zed"
-      "zen"
     ];
     # App store apps
     masApps = {
