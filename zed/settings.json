@@ -33,9 +33,9 @@
     "icon_theme": "Zed (Default)",
     "base_keymap": "VSCode",
     "theme": {
-        "mode": "light",
+        "mode": "dark",
         "light": "One Light",
-        "dark": "One Dark",
+        "dark": "Ayu Dark",
     },
     "tab_size": 4,
     "languages": {
