@@ -6,6 +6,9 @@
       ps: with ps; [
         boltons
         uv
+        pyserial
+        pynmea2
+        pyyaml
       ]
     ))
   ];

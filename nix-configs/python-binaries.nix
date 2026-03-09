@@ -26,11 +26,23 @@ let
     '';
   };
 
+  # List all the available serial prots
+  serial-port-list = pkgs.stdenv.mkDerivation {
+    name = "serial-port-list";
+    buildInputs = [ pkgs.python313 ];
+    unpackPhase = "true";
+    installPhase = ''
+      mkdir -p $out/bin
+      cp ${../scripts/serial_port_list.py} $out/bin/serial-port-list
+      chmod +x $out/bin/serial-port-list
+    '';
+  };
 in
 
 {
   environment.systemPackages = [
     securepass
     update-ssh-config
+    serial-port-list
   ];
 }

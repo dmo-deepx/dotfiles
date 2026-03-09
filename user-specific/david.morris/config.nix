@@ -2,11 +2,11 @@
 
 {
   system.defaults.dock.persistent-apps = [
+    { app = "/Applications/Google Chrome.app"; }
     { app = "/Applications/Microsoft Teams.app"; }
+    { app = "/Applications/Nix Apps/Slack.app"; }
     { app = "/Applications/muCommander.app"; }
     { app = "/Applications/Nix Apps/iTerm2.app"; }
-    { app = "/Applications/Nix Apps/Slack.app"; }
-    { app = "/Applications/Google Chrome.app"; }
     { app = "/Applications/Zed.app"; }
     { app = "/Applications/Visual Studio Code.app"; }
     { app = "/Applications/Phoenix Slides.app"; }
@@ -22,6 +22,7 @@
     pkgs.slack # Slack is a communication platform with a desktop application based on Electron
     pkgs.localsend
     pkgs.alt-tab-macos
+    pkgs.exiftool # Tool to read, write and edit EXIF meta information
 
     # Not compatible yet with darwin:
     #
@@ -34,6 +35,7 @@
     casks = [
       "appcleaner"
       "bitwarden"
+      "disk-inventory-x"
       "docker-desktop"
       "gimp"
       "hot"
