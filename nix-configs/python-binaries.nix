@@ -29,7 +29,13 @@ let
   # List all the available serial prots
   serial-port-list = pkgs.stdenv.mkDerivation {
     name = "serial-port-list";
-    buildInputs = [ pkgs.python313 ];
+    buildInputs = [
+      (pkgs.python313.withPackages (
+        ps: with ps; [
+          pyserial
+        ]
+      ))
+    ];
     unpackPhase = "true";
     installPhase = ''
       mkdir -p $out/bin

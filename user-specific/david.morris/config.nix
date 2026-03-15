@@ -23,6 +23,8 @@
     pkgs.localsend
     pkgs.alt-tab-macos
     pkgs.exiftool # Tool to read, write and edit EXIF meta information
+    pkgs.ffmpeg-full # Includes all optional features including libfreetype
+    pkgs.obs-studio
 
     # Not compatible yet with darwin:
     #
@@ -32,6 +34,11 @@
   ];
 
   homebrew = {
+    brews = [
+      "yt-dlp"
+      "git-lfs"
+    ];
+
     casks = [
       "appcleaner"
       "bitwarden"
@@ -41,7 +48,6 @@
       "hot"
       "keka"
       "languagetool-desktop"
-      "logi-options+"
       "maccy"
       "megasync"
       "notion"
@@ -49,10 +55,14 @@
       "phoenix-slides"
       "qgis"
       "tiles"
-      "vlc"
       "visual-studio-code"
       "zed"
       "zen"
+      "vlc"
+
+      "foobar2000"
+      # Doesn't work, probably blocked:
+      # "openmtp"
     ];
   };
 }

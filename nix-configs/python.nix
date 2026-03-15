@@ -9,6 +9,7 @@
         pyserial
         pynmea2
         pyyaml
+        dvc # https://dvc.org/
       ]
     ))
   ];
