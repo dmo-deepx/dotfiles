@@ -1,7 +1,7 @@
 {
   user = {
-    name = "david.morris";
-    hostname = "dmo-m4";
+    name = "davidmorris";
+    hostname = "dmo-m2";
     system = "aarch64-darwin";
   };
 }
