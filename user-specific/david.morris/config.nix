@@ -24,7 +24,7 @@
     pkgs.alt-tab-macos
     pkgs.exiftool # Tool to read, write and edit EXIF meta information
     pkgs.ffmpeg-full # Includes all optional features including libfreetype
-    pkgs.obs-studio
+    # pkgs.obs-studio
 
     # Not compatible yet with darwin:
     #
