@@ -1,6 +1,7 @@
 # Common aliases
 alias dev="cd $HOME/Development"
 alias l='ls -lah --color=auto'
+alias ll='ls -la --color=auto'
 alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 alias nano='nano -c'
 alias 7z='7zz'
@@ -42,3 +43,7 @@ alias listusers='dscl . list /Users | grep -v “^_”'
 alias nixrb="sudo darwin-rebuild switch --flake $HOME/.dotfiles/nix-configs"
 alias nixupdate="nix flake update --flake $HOME/.dotfiles/nix-configs"
 alias nixgc="nix-collect-garbage -d"
+
+# Dmo aliases
+alias vm="ssh vm067a"
+alias spl="serial-port-list"

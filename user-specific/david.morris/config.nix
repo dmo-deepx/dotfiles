@@ -37,6 +37,11 @@
     brews = [
       "yt-dlp"
       "git-lfs"
+      "cmake"
+      "libserialport"
+      "tio"
+      "fzf"
+      #"mac-mouse-fix"
     ];
 
     casks = [
@@ -61,6 +66,7 @@
       "vlc"
 
       "foobar2000"
+      "claude-code"
       # Doesn't work, probably blocked:
       # "openmtp"
     ];

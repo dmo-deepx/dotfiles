@@ -37,6 +37,10 @@
     brews = [
       "yt-dlp"
       "git-lfs"
+      "cmake"
+      "libserialport"
+      "tio"
+      "fzf"
       #"mac-mouse-fix"
     ];
 

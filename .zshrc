@@ -21,3 +21,6 @@ ulimit -n 2048
 
 # Enable direnv
 eval "$(direnv hook zsh)"
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
