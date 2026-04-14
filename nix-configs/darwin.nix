@@ -114,6 +114,86 @@
       EnableTilingOptionAccelerator = false;
       EnableTopTilingByEdgeDrag = false;
     };
+
+    CustomSystemPreferences = {
+      "com.apple.symbolichotkeys" = {
+        AppleSymbolicHotKeys = {
+          # Mission Control → CMD+SHIFT+X
+          "32" = {
+            enabled = true;
+            value = {
+              parameters = [
+                120
+                7
+                917504
+              ]; # 'x' keycode, CMD+SHIFT
+              type = "standard";
+            };
+          };
+
+          # Notification Centre → CMD+SHIFT+A
+          "163" = {
+            enabled = true;
+            value = {
+              parameters = [
+                97
+                12
+                917504
+              ]; # 'a' keycode fixed: kVK_ANSI_A = 12
+              type = "standard";
+            };
+          };
+
+          # Show Desktop (F11) → DISABLE
+          "36" = {
+            enabled = false;
+            value = {
+              parameters = [
+                65535
+                103
+                0
+              ];
+              type = "standard";
+            };
+          };
+
+          # Quick Note → DISABLE
+          "190" = {
+            enabled = false;
+            value = {
+              parameters = [
+                65535
+                255
+                0
+              ];
+              type = "standard";
+            };
+          };
+
+          # Game Overlay (Cmd+Tab in Game mode) → DISABLE
+          "233" = {
+            enabled = false;
+            value = {
+              parameters = [
+                65535
+                255
+                0
+              ];
+              type = "standard";
+            };
+          };
+        };
+      };
+    };
+    CustomUserPreferences = {
+      "com.google.Chrome" = {
+        NSUserKeyEquivalents = {
+          "Open Location…" = "@d"; # CMD+D
+          "Bookmark This Tab…" = "@b"; # CMD+B
+          "Reload This Page" = ""; # F5, I think
+        };
+      };
+    };
   };
 
   # Enable TouchID and Apple Watch unlock for sudo

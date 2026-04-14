@@ -26,11 +26,17 @@ softwareupdate --install-rosetta --agree-to-license
 xcode-select --install 
 ```
 
+**5. Install brew**
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+
 ## Clone the repo and rebuild the system
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/myrheimb/dotfiles.git ~/.dotfiles
+git clone https://github.com/dmo-deepx/dotfiles.git ~/.dotfiles
 ```
 
 **2. Add symlinks to set things up**

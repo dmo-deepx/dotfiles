@@ -10,7 +10,10 @@
     { app = "/Applications/Zed.app"; }
     { app = "/Applications/Visual Studio Code.app"; }
     { app = "/Applications/Phoenix Slides.app"; }
-    { app = "/Applications/Notion.app"; }
+    {
+      app = "/Users/david.morris/Library/Application Support/Autodesk/webdeploy/production/a5622f4599acfbd64092660b8146f6dfac84b731/Autodesk Fusion.app";
+    }
+    { app = "/Applications/QGIS-final-4_0_0.app"; }
 
   ];
 
@@ -54,19 +57,20 @@
       "keka"
       "languagetool-desktop"
       "maccy"
-      "megasync"
       "notion"
       "openvpn-connect"
       "phoenix-slides"
       "qgis"
-      "tiles"
+      "tiles" # window tile manager
       "visual-studio-code"
-      "zed"
-      "zen"
+      "zed" # simple text editor
+      "zen" # web browser
       "vlc"
 
-      "foobar2000"
+      "foobar2000" # music manager
       "claude-code"
+      "jordanbaird-ice" # Menu bar manager
+      "disk-inventory-x"
       # Doesn't work, probably blocked:
       # "openmtp"
     ];
