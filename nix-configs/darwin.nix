@@ -60,7 +60,7 @@
       # Restrict searches in Finder to current folder
       FXDefaultSearchScope = "SCcf";
       # Default to List view in Finder
-      FXPreferredViewStyle = "Nlsv";
+      FXPreferredViewStyle = "clmv";
       NewWindowTarget = "Home";
       ShowPathbar = true;
       ShowStatusBar = true;
@@ -198,4 +198,14 @@
 
   # Enable TouchID and Apple Watch unlock for sudo
   security.pam.services.sudo_local.touchIdAuth = true;
+
+  programs.tmux = {
+    enableFzf = true;
+    enableSensible = true;
+    iTerm2 = true;
+  };
+
+  programs.zsh = {
+    histSize = 10000;
+  };
 }
