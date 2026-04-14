@@ -39,11 +39,12 @@
   homebrew = {
     brews = [
       "yt-dlp"
-      "git-lfs"
+      "gh" # Github command line tools
+      "git-lfs" # Git Large File System
       "cmake"
       "libserialport"
-      "tio"
-      "fzf"
+      "tio" # Terminal IO
+      "fzf" # Fuzzy Search
       #"mac-mouse-fix"
     ];
 
