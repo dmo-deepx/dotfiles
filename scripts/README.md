@@ -23,3 +23,6 @@ Optional fields are:
 If `User` is not defined, the script will fall back to `root`.
 
 See `VALID_SSH_OPTIONS` if you want to add additional fields.
+
+## `serial_port_list.py`
+Output a list of available serial ports and their descriptions.

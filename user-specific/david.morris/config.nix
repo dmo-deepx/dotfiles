@@ -13,6 +13,7 @@
     {
       app = "/Users/david.morris/Library/Application Support/Autodesk/webdeploy/production/a5622f4599acfbd64092660b8146f6dfac84b731/Autodesk Fusion.app";
     }
+    { app = "/Applications/QCAD-Pro.app"; }
     { app = "/Applications/QGIS-final-4_0_0.app"; }
 
   ];
@@ -28,6 +29,8 @@
     pkgs.exiftool # Tool to read, write and edit EXIF meta information
     pkgs.ffmpeg-full # Includes all optional features including libfreetype
     # pkgs.obs-studio
+    #
+    pkgs.gcc-arm-embedded # GNU Arm toolchain (gcc, gdb, newlib, etc.)
 
     # Not compatible yet with darwin:
     #
@@ -45,6 +48,7 @@
       "libserialport"
       "tio" # Terminal IO
       "fzf" # Fuzzy Search
+      "dfu-util"
       #"mac-mouse-fix"
     ];
 

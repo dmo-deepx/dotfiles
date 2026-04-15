@@ -47,3 +47,4 @@ alias nixgc="nix-collect-garbage -d"
 # Dmo aliases
 alias vm="ssh vm067a"
 alias spl="serial-port-list"
+alias xlate="translate-gui"

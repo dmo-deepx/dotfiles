@@ -34,9 +34,21 @@ _ICON_B64 = (
 
 
 def _app_icon() -> QIcon:
-    pm = QPixmap()
-    pm.loadFromData(QByteArray(base64.b64decode(_ICON_B64)), "SVG")
-    return QIcon(pm)
+    svg_bytes = QByteArray(base64.b64decode(_ICON_B64))
+    try:
+        from PyQt6.QtSvg import QSvgRenderer  # type: ignore[import-untyped]
+        from PyQt6.QtGui import QPainter  # type: ignore[import-untyped]
+        renderer = QSvgRenderer(svg_bytes)
+        pm = QPixmap(256, 256)
+        pm.fill(Qt.GlobalColor.transparent)
+        painter = QPainter(pm)
+        renderer.render(painter)
+        painter.end()
+        return QIcon(pm)
+    except ImportError:
+        pm = QPixmap()
+        pm.loadFromData(svg_bytes, "SVG")
+        return QIcon(pm)
 
 
 # Monokai Pro Light — warm parchment base, Monokai accent colours.
@@ -143,7 +155,7 @@ class XlateWindow(QWidget):
 
         # Buttons
         btn_row = QHBoxLayout()
-        self.paste_btn = QPushButton("Paste from clipboard")
+        self.paste_btn = QPushButton("Paste & translate  ⌘⇧V")
         self.translate_btn = QPushButton("Translate  ⌘↩")
         self.translate_btn.setDefault(True)
         btn_row.addWidget(self.paste_btn)
@@ -174,6 +186,7 @@ class XlateWindow(QWidget):
         QShortcut(QKeySequence("Escape"), self).activated.connect(self.close)
         # Cmd+Enter on macOS
         QShortcut(QKeySequence("Ctrl+Return"), self).activated.connect(self._do_translate)
+        QShortcut(QKeySequence("Ctrl+Shift+V"), self).activated.connect(self._paste_and_translate)
 
     def _paste_and_translate(self):
         text = QApplication.clipboard().text()

@@ -43,6 +43,26 @@ let
       chmod +x $out/bin/serial-port-list
     '';
   };
+
+  # Quick GUI for translating JA <-> EN
+  translate-gui = pkgs.stdenv.mkDerivation {
+    name = "translate-gui";
+    buildInputs = [
+      (pkgs.python313.withPackages (
+        ps: with ps; [
+          pyqt6
+          deep-translator
+        ]
+      ))
+    ];
+    unpackPhase = "true";
+    installPhase = ''
+      mkdir -p $out/bin
+      cp ${../scripts/translate_gui.py} $out/bin/translate-gui
+      chmod +x $out/bin/translate-gui
+    '';
+  };
+  
 in
 
 {
@@ -50,5 +70,6 @@ in
     securepass
     update-ssh-config
     serial-port-list
+    translate-gui
   ];
 }

@@ -196,6 +196,15 @@
     };
   };
 
+  # Global hotkeys
+  services.skhd = {
+    enable = true;
+    skhdConfig = ''
+      # CMD+SHIFT+T → open translator
+      cmd + shift - t : /run/current-system/sw/bin/translate-gui
+    '';
+  };
+
   # Enable TouchID and Apple Watch unlock for sudo
   security.pam.services.sudo_local.touchIdAuth = true;
 
