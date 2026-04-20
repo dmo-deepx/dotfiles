@@ -46,12 +46,13 @@ ln -sv ~/.dotfiles/.hushlogin ~/
 ln -sv ~/.dotfiles/.direnvrc ~/
 ```
 
-Optional: Additional symlinks if you use the Zed editor.
+Additional symlinks for apps
 ```bash
 [[ -d ~/.config/zed ]] || mkdir -p ~/.config/zed
-ln -sv ~/.dotfiles/zed/settings.json ~/.config/zed/settings.json
-ln -sv ~/.dotfiles/zed/keymap.json ~/.config/zed/keymap.json
-ln -sv ~/.dotfiles/zed/ruff.toml ~/.config/zed/ruff.toml
+ln -sv ~/.dotfiles/app/zed/settings.json ~/.config/zed/settings.json
+ln -sv ~/.dotfiles/app/zed/keymap.json ~/.config/zed/keymap.json
+ln -sv ~/.dotfiles/app/zed/ruff.toml ~/.config/zed/ruff.toml
+ n -sv ~/.dotfiles/apps/muCommander ~/Library/Preferences/muCommander
 ```
 
 **3. Add your own username and desired computer/host name**

@@ -49,6 +49,8 @@
       "tio" # Terminal IO
       "fzf" # Fuzzy Search
       "dfu-util"
+      "libftdi"
+      "pkgconf"
       #"mac-mouse-fix"
     ];
 

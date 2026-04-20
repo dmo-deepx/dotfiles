@@ -186,11 +186,12 @@
       };
     };
     CustomUserPreferences = {
+      # NSUserKeyEquivalents modifier symbols: ^ = Ctrl, @ = Cmd, ~ = Opt, $ = Shift
       "com.google.Chrome" = {
         NSUserKeyEquivalents = {
           "Open Location…" = "@d"; # CMD+D
           "Bookmark This Tab…" = "@b"; # CMD+B
-          "Reload This Page" = ""; # F5, I think
+          "Reload This Page" = ""; # F5
         };
       };
     };
