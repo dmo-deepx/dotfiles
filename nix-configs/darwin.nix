@@ -144,6 +144,19 @@
             };
           };
 
+          # Zoom → CMD+SHIFT+F
+          "235" = {
+            enabled = false;
+            value = {
+              parameters = [
+                0
+                0
+                0
+              ];
+              type = "standard";
+            };
+          };
+
           # Show Desktop (F11) → DISABLE
           "36" = {
             enabled = false;

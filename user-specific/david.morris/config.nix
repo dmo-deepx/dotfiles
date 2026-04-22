@@ -6,8 +6,8 @@
     { app = "/Applications/Microsoft Teams.app"; }
     { app = "/Applications/Nix Apps/Slack.app"; }
     { app = "/Applications/muCommander.app"; }
-    { app = "/Applications/Nix Apps/iTerm2.app"; }
     { app = "/Applications/Zed.app"; }
+    { app = "/Applications/Nix Apps/iTerm2.app"; }
     { app = "/Applications/Visual Studio Code.app"; }
     { app = "/Applications/Phoenix Slides.app"; }
     {
@@ -78,6 +78,8 @@
       "claude-code"
       "jordanbaird-ice" # Menu bar manager
       "disk-inventory-x"
+
+
       # Doesn't work, probably blocked:
       # "openmtp"
     ];
