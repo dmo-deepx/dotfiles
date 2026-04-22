@@ -71,16 +71,15 @@
       "tiles" # window tile manager
       "visual-studio-code"
       "zed" # simple text editor
-      "zen" # web browser
       "vlc"
 
       "foobar2000" # music manager
       "claude-code"
-      "jordanbaird-ice" # Menu bar manager
       "disk-inventory-x"
 
-
       # Doesn't work, probably blocked:
+      # "jordanbaird-ice" # Menu bar manager
+      # "zen" # web browser
       # "openmtp"
     ];
   };

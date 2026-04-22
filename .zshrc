@@ -20,7 +20,9 @@ source "$HOME/.dotfiles/user-specific/$USER/profile.zsh"
 ulimit -n 2048
 
 # Enable direnv
-eval "$(direnv hook zsh)"
+if (( $+commands[direnv] )); then
+  eval "$(direnv hook zsh)"
+fi
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)

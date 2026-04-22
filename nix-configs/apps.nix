@@ -15,7 +15,6 @@
     pkgs.coreutils # The basic file, shell and text manipulation utilities of the GNU operating system
     unstablePkgs.devenv # Fast, Declarative, Reproducible, and Composable Developer Environments
     pkgs.dig # DNS lookup utility
-    pkgs.direnv # A shell extension that manages your environment
     pkgs.docker-compose # Docker CLI plugin to define and run multi-container applications with Docker
     pkgs.ext4fuse # FUSE driver for ext2, 3, and 4
     pkgs.fasttext # Library for text classification and representation learning
@@ -60,8 +59,7 @@
     enable = true;
     user = config.user.name;
     brews = [
-      # "foo"
-      # "bar"
+      "direnv"
     ];
     casks = [
     ];

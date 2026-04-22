@@ -36,7 +36,7 @@
 
   system.defaults = {
     iCal."first day of week" = "Monday";
-
+    spaces.spans-displays = false;
     smb.NetBIOSName = config.user.hostname;
 
     dock = {
@@ -93,8 +93,8 @@
       NSAutomaticSpellingCorrectionEnabled = false;
       # Force 24-hour clock
       AppleICUForce24HourTime = true;
-      # Enable natural scrolling direction
-      "com.apple.swipescrolldirection" = true;
+      # Enable correct scrolling direction
+      "com.apple.swipescrolldirection" = false;
       # Two-finger tap to right click
       "com.apple.trackpad.enableSecondaryClick" = true;
       # Enable trackpad tap to click
