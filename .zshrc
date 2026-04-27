@@ -3,9 +3,6 @@ if [[ -r /run/current-system/sw/bin/env_parallel.zsh ]]; then
   source /run/current-system/sw/bin/env_parallel.zsh
 fi
 
-# Apply zsh theme
-source "$ZSH/oh-my-zsh.sh"
-
 # Ensure local fasttext model
 source $HOME/.dotfiles/languageTool/setup.sh
 create_properties_file
@@ -23,6 +20,10 @@ ulimit -n 2048
 if (( $+commands[direnv] )); then
   eval "$(direnv hook zsh)"
 fi
+
+# Apply zsh theme
+export ZSH="$HOME/.oh-my-zsh"
+source "$ZSH/oh-my-zsh.sh"
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)

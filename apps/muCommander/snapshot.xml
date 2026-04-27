@@ -30,8 +30,8 @@
         </text>
     </file_presenter>
     <screen>
-        <width>1920</width>
-        <height>1080</height>
+        <width>1470</width>
+        <height>956</height>
     </screen>
     <windows>
         <selection>0</selection>
@@ -55,7 +55,7 @@
                         <selection>0</selection>
                         <count>1</count>
                         <tab-0>
-                            <location>file://localhost/Users/david.morris/data/equipment/GNSS</location>
+                            <location>file://localhost/Users/david.morris/data/equipment/IMU_Docs</location>
                             <locked>false</locked>
                         </tab-0>
                     </tabs>
@@ -77,12 +77,12 @@
                         </extension>
                         <size>
                             <show>true</show>
-                            <width>58</width>
+                            <width>53</width>
                             <position>2</position>
                         </size>
                         <permissions>
                             <show>true</show>
-                            <width>32</width>
+                            <width>37</width>
                             <position>4</position>
                         </permissions>
                         <name>
@@ -158,26 +158,27 @@
     <recent_locations>
         <location-8>file://localhost/Users/david.morris/.dotfiles/nix-configs</location-8>
         <location-9>file://localhost/Users/david.morris/data/</location-9>
-        <count>23</count>
-        <location-19>file://localhost/Users/david.morris/Downloads/TWSSS10-5.5-10_STEP_AP214_20260421.zip</location-19>
         <location-13>file://localhost/Users/david.morris/data/prj/uese</location-13>
         <location-14>file://localhost/Users/david.morris/data/prj/uese/fab/20260414</location-14>
         <location-11>file://localhost/Users/david.morris/Downloads/HFBLY45A8-4040-100_STEP.zip</location-11>
-        <location-22>file://localhost/Users/david.morris/data/equipment/GNSS</location-22>
         <location-12>file://localhost/Users/david.morris/data/prj</location-12>
         <location-17>file://localhost/Users/david.morris/Applications</location-17>
         <location-18>file://localhost/Users/david.morris/Downloads</location-18>
         <location-15>file://localhost/Users/david.morris/data/prj/uese/fab</location-15>
         <location-16>file://localhost/Users/david.morris</location-16>
+        <location-10>file://localhost/Users/david.morris/Downloads/HFBLY30A8-4040-100_STEP.zip</location-10>
+        <count>24</count>
+        <location-19>file://localhost/Users/david.morris/Downloads/TWSSS10-5.5-10_STEP_AP214_20260421.zip</location-19>
+        <location-22>file://localhost/Users/david.morris/data/equipment/</location-22>
+        <location-23>file://localhost/Users/david.morris/data/equipment/IMU_Docs</location-23>
         <location-6>file://localhost/Users/david.morris/.config/zed</location-6>
         <location-7>file://localhost/Users/david.morris/.dotfiles</location-7>
         <location-4>file://localhost/Users/david.morris/data/admin</location-4>
         <location-5>file://localhost/Users/david.morris/data/admin/medical_check</location-5>
         <location-2>file://localhost/Users/david.morris/.config</location-2>
-        <location-20>file://localhost/Users/david.morris/data/prj/uese/mech</location-20>
+        <location-20>file://localhost/Users/david.morris/data/equipment/GNSS</location-20>
         <location-3>file://localhost/Users/david.morris/data/admin/situations</location-3>
-        <location-10>file://localhost/Users/david.morris/Downloads/HFBLY30A8-4040-100_STEP.zip</location-10>
-        <location-21>file://localhost/Users/david.morris/data/equipment/</location-21>
+        <location-21>file://localhost/Users/david.morris/data/prj/uese/mech</location-21>
         <location-0>file://localhost/Users/david.morris/.dotfiles/zed</location-0>
         <location-1>file://localhost/Users/david.morris/.dotfiles/apps</location-1>
     </recent_locations>

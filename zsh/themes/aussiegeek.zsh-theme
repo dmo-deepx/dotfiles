@@ -1,6 +1,6 @@
 # https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html
 
-PROMPT="%{${fg_bold[blue]}%}[ %{${fg[red]}%}%*%{${fg_bold[blue]}%} ] %{${fg_bold[blue]}%}(%{${fg[red]}%}%?%{${fg_bold[blue]}%}) %{${fg_bold[blue]}%}[ %{${fg[red]}%}%/\$(git_prompt_info)%{${fg[yellow]}%}\$(ruby_prompt_info)%{${fg_bold[blue]}%} ]%{$reset_color%}
+PROMPT="%{${fg_bold[blue]}%}[ %{${fg_bold[green]}%}%*%{${fg_bold[blue]}%} / %{${fg[cyan]}%}%n@%m%{${fg_bold[blue]}%} ] %{${fg_bold[blue]}%}(%{${fg[red]}%}%?%{${fg_bold[blue]}%}) %{${fg_bold[blue]}%}[ %{${fg[red]}%}%/\$(git_prompt_info)%{${fg[yellow]}%}\$(ruby_prompt_info)%{${fg_bold[blue]}%} ]%{$reset_color%}
  $ "
 
 # git theming

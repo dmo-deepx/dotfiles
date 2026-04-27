@@ -1,5 +1,5 @@
 # Common aliases
-alias dev="cd $HOME/Development"
+alias dev="cd $HOME/code"
 alias l='ls -lah --color=auto'
 alias ll='ls -la --color=auto'
 alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
