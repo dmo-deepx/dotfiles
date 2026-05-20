@@ -214,8 +214,8 @@
   services.skhd = {
     enable = true;
     skhdConfig = ''
-      # CMD+SHIFT+T → open translator
-      cmd + shift - t : /run/current-system/sw/bin/translate-gui
+      # CTRL+CMD+V → open translator
+      ctrl + cmd - v : /run/current-system/sw/bin/translate-gui
     '';
   };
 

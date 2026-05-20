@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <preferences>
     <time_format>HH:mm:ss</time_format>
-    <quit_confirmation>true</quit_confirmation>
+    <quit_confirmation>false</quit_confirmation>
     <show_splash_screen>false</show_splash_screen>
     <preferred_encodings>UTF-8,UTF-16,ISO-8859-1,windows-1252,KOI8-R,GB18030</preferred_encodings>
     <check_for_updates_on_startup>false</check_for_updates_on_startup>
@@ -26,7 +26,7 @@
         <smtp_port>25</smtp_port>
     </mail>
     <log>
-        <level>WARNING</level>
+        <level>FINEST</level>
         <buffer_size>200</buffer_size>
     </log>
     <status_bar>

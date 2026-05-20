@@ -3,15 +3,16 @@
 {
   system.defaults.dock.persistent-apps = [
     { app = "/Applications/Google Chrome.app"; }
+    { app = "/Applications/Microsoft Outlook.app"; }
     { app = "/Applications/Microsoft Teams.app"; }
-    { app = "/Applications/Nix Apps/Slack.app"; }
+    { app = "/Applications/Slack.app"; }
     { app = "/Applications/muCommander.app"; }
     { app = "/Applications/Zed.app"; }
     { app = "/Applications/Nix Apps/iTerm2.app"; }
     { app = "/Applications/Visual Studio Code.app"; }
     { app = "/Applications/Phoenix Slides.app"; }
     {
-      app = "/Users/david.morris/Library/Application Support/Autodesk/webdeploy/production/a5622f4599acfbd64092660b8146f6dfac84b731/Autodesk Fusion.app";
+      app = "/Users/david.morris/Library/Application Support/Autodesk/webdeploy/production/2448aa8b3276a952725a8bb01f628b797da18a2a/Autodesk Fusion.app";
     }
     { app = "/Applications/QCAD-Pro.app"; }
     { app = "/Applications/QGIS-final-4_0_0.app"; }
@@ -23,7 +24,7 @@
     pkgs.pinentry_mac # Pinentry for GPG on macOS
     pkgs.trivy # Simple and comprehensive vulnerability scanner for containers
 
-    pkgs.slack # Slack is a communication platform with a desktop application based on Electron
+    #pkgs.slack # Slack is a communication platform with a desktop application based on Electron
     pkgs.localsend
     pkgs.alt-tab-macos
     pkgs.exiftool # Tool to read, write and edit EXIF meta information
@@ -51,31 +52,36 @@
       "dfu-util"
       "libftdi"
       "pkgconf"
+      "poppler"
+      "tmux"
       #"mac-mouse-fix"
     ];
 
     casks = [
-      "appcleaner"
-      "bitwarden"
-      "disk-inventory-x"
-      "docker-desktop"
-      "gimp"
+      "appcleaner" # App Cleaner and Uninstaller
+      "bitwarden" # Password manager
+      "docker-desktop" # Docker Desktop
+      "gimp" # Image editing
       "hot"
-      "keka"
+      "keka" # File archiving and backup tool
       "languagetool-desktop"
-      "maccy"
-      "notion"
+      "maccy" # Clipboard manager
+      "notion" # Productivity and collaboration platform
       "openvpn-connect"
       "phoenix-slides"
-      "qgis"
+      "qgis" # Geographic Information System
       "tiles" # window tile manager
       "visual-studio-code"
       "zed" # simple text editor
-      "vlc"
+      "vlc" # Video Player
 
       "foobar2000" # music manager
-      "claude-code"
-      "disk-inventory-x"
+      "claude-code" # Claude AI code assistant
+      "disk-inventory-x" # Disk Inventory X
+      "blender" # 3D Creation/Animation/Publishing System
+      "kicad" # Electronic Design Automation (EDA) tool for schematic capture and PCB design
+
+      "steipete/tap/codexbar" # CodexBar tracks usage windows, credit balances, and reset countdowns
 
       # Doesn't work, probably blocked:
       # "jordanbaird-ice" # Menu bar manager

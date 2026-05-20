@@ -1,0 +1,21 @@
+commands:
+- value: open -R $f
+  display: Finder
+  alias: openFM
+  type: SYSTEM_COMMAND
+- value: open -a /Applications/Zed.app $f
+  display: edit
+  alias: edit
+  type: NORMAL_COMMAND
+- value: open $f
+  display: open
+  alias: open
+  type: SYSTEM_COMMAND
+- value: open -a Terminal $f
+  display: openCmd
+  alias: openCmd
+  type: SYSTEM_COMMAND
+- value: osascript -e open\ location\ "$f"
+  display: openURL
+  alias: openURL
+  type: SYSTEM_COMMAND
