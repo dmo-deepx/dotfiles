@@ -52,8 +52,12 @@
       "dfu-util"
       "libftdi"
       "pkgconf"
-      "poppler"
+      "poppler" # pdf2text things
       "tmux"
+      "deno" # Secure runtime for JavaScript and TypeScript
+      "fastfetch" # Fastfetch is a neofetch-like tool for fetching system information and displaying it in a visually appealing way.
+      "mactop" # Apple Silicon Monitor Top written in Go Lang
+
       #"mac-mouse-fix"
     ];
 
@@ -82,6 +86,9 @@
       "kicad" # Electronic Design Automation (EDA) tool for schematic capture and PCB design
 
       "steipete/tap/codexbar" # CodexBar tracks usage windows, credit balances, and reset countdowns
+      "menumeters" # Set of CPU, memory, disk, and network monitoring tools
+      "stats" # System monitoring tool
+      "vnc-viewer" # Remote desktop application focusing on security
 
       # Doesn't work, probably blocked:
       # "jordanbaird-ice" # Menu bar manager

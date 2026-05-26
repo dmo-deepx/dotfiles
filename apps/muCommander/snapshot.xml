@@ -59,7 +59,7 @@
                         <selection>0</selection>
                         <count>1</count>
                         <tab-0>
-                            <location>file://localhost/Users/david.morris/code/dmo-scripts/vn300_docs</location>
+                            <location>file://localhost/Users/david.morris/Downloads/</location>
                             <locked>false</locked>
                         </tab-0>
                     </tabs>
@@ -160,20 +160,20 @@
         </window-0>
     </windows>
     <recent_locations>
-        <location-79>file://localhost/Users/david.morris/code/localization/scripts/sensor</location-79>
-        <location-77>file://localhost/Users/david.morris/code/localization/scripts/sensor/vn300</location-77>
-        <location-78>file://localhost/Users/david.morris/code/localization/scripts/sensor/gnss</location-78>
-        <location-71>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts</location-71>
-        <location-72>file://localhost/Users/david.morris/data/private</location-72>
-        <location-70>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts/simulation</location-70>
-        <location-75>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts/site</location-75>
-        <location-76>file://localhost/Users/david.morris/code/deployment_tools</location-76>
-        <location-73>file://localhost/Users/david.morris/.claude</location-73>
-        <location-74>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts/site/vn300</location-74>
-        <location-68>file://localhost/Users/david.morris/jakarta_ws/repos</location-68>
-        <location-69>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta</location-69>
-        <location-66>file://localhost/Users/david.morris/Downloads/</location-66>
-        <location-67>file://localhost/Users/david.morris/jakarta_ws</location-67>
+        <location-79>file://localhost/Users/david.morris/code/localization/scripts</location-79>
+        <location-77>file://localhost/Users/david.morris/code/localization/scripts/sensor/gnss</location-77>
+        <location-78>file://localhost/Users/david.morris/code/localization/scripts/sensor</location-78>
+        <location-71>file://localhost/Users/david.morris/data/private</location-71>
+        <location-72>file://localhost/Users/david.morris/.claude</location-72>
+        <location-70>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts</location-70>
+        <location-75>file://localhost/Users/david.morris/code/deployment_tools</location-75>
+        <location-76>file://localhost/Users/david.morris/code/localization/scripts/sensor/vn300</location-76>
+        <location-73>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts/site/vn300</location-73>
+        <location-74>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts/site</location-74>
+        <location-68>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta</location-68>
+        <location-69>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts/simulation</location-69>
+        <location-66>file://localhost/Users/david.morris/jakarta_ws</location-66>
+        <location-67>file://localhost/Users/david.morris/jakarta_ws/repos</location-67>
         <location-60>file://localhost/Users/david.morris/data/prj/uese</location-60>
         <location-61>file://localhost/Users/david.morris/data/prj</location-61>
         <location-64>file://localhost/Users/david.morris/data/admin</location-64>
@@ -222,44 +222,44 @@
         <location-27>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/個別回路図/napoli_bull_d6</location-27>
         <location-20>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/module/module</location-20>
         <location-21>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/module</location-21>
-        <location-90>file://localhost/Users/david.morris/code</location-90>
+        <location-90>file://localhost/Users/david.morris</location-90>
         <location-8>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware</location-8>
         <location-9>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/diagram_main</location-9>
         <location-13>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions</location-13>
         <location-14>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/213_Napoli Bulldozer/</location-14>
         <location-11>file://localhost/Users/david.morris/data/gdrive</location-11>
-        <location-99>file://localhost/Users/david.morris/data/equipment/GNSS</location-99>
+        <location-99>file://localhost/Users/david.morris/Downloads/</location-99>
         <location-12>file://localhost/Users/david.morris/data/gdrive/Shared drives</location-12>
         <location-17>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/back-up/circuit_main</location-17>
         <location-18>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/back-up</location-18>
         <location-15>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer</location-15>
         <location-16>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development</location-16>
-        <location-93>file://localhost/Users/david.morris/code/dmo-scripts/vn300_docs/code</location-93>
-        <location-94>file://localhost/Users/david.morris/data/equipment/IMU/vn300_registers/code</location-94>
-        <location-91>file://localhost/Users/david.morris/code/dmo-scripts</location-91>
-        <location-92>file://localhost/Users/david.morris</location-92>
-        <location-97>file://localhost/Users/david.morris/data/equipment/IMU</location-97>
+        <location-93>file://localhost/Users/david.morris/data/equipment/IMU/vn300_registers</location-93>
+        <location-94>file://localhost/Users/david.morris/data/equipment/IMU</location-94>
+        <location-91>file://localhost/Users/david.morris/code/dmo-scripts/vn300_docs/code</location-91>
+        <location-92>file://localhost/Users/david.morris/data/equipment/IMU/vn300_registers/code</location-92>
+        <location-97>file://localhost/Users/david.morris/code/dmo-scripts/vn300_docs</location-97>
         <location-10>file://localhost/Users/david.morris/data/admin/expenses/</location-10>
-        <location-98>file://localhost/Users/david.morris/data/equipment</location-98>
-        <location-95>file://localhost/Users/david.morris/data/equipment/IMU/vn300_registers</location-95>
-        <location-96>file://localhost/Users/david.morris/code/dmo-scripts/vn300_docs</location-96>
-        <location-88>file://localhost/Users/david.morris/Library/</location-88>
-        <location-89>file://localhost/Users/david.morris/data</location-89>
+        <location-98>file://localhost/Users/david.morris/code/dmo-scripts/</location-98>
+        <location-95>file://localhost/Users/david.morris/data/equipment</location-95>
+        <location-96>file://localhost/Users/david.morris/data/equipment/GNSS</location-96>
+        <location-88>file://localhost/Users/david.morris/data</location-88>
+        <location-89>file://localhost/Users/david.morris/code</location-89>
         <location-6>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions</location-6>
-        <location-82>file://localhost/Users/david.morris/.dotfiles/apps/muCommander</location-82>
+        <location-82>file://localhost/Users/david.morris/.dotfiles/apps</location-82>
         <location-7>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/213_Napoli Bulldozer/Development</location-7>
-        <location-83>file://localhost/Users/david.morris/.dotfiles/apps</location-83>
+        <location-83>file://localhost/Users/david.morris/Library/PreferencePanes</location-83>
         <location-4>file://localhost/Users/david.morris/Google Drive/Shared drives</location-4>
-        <location-80>file://localhost/Users/david.morris/code/localization/scripts</location-80>
+        <location-80>file://localhost/Users/david.morris/code/localization</location-80>
         <location-5>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/102_Hardware</location-5>
-        <location-81>file://localhost/Users/david.morris/code/localization</location-81>
+        <location-81>file://localhost/Users/david.morris/.dotfiles/apps/muCommander</location-81>
         <location-2>file://localhost/Users/david.morris/data/admin/expenses/20260408_travel_SKY</location-2>
-        <location-86>file://localhost/Users/david.morris/Library/Preferences/muCommander</location-86>
+        <location-86>file://localhost/Users/david.morris/Library/Preferences/</location-86>
         <location-3>file://localhost/Users/david.morris/Google Drive</location-3>
-        <location-87>file://localhost/Users/david.morris/Library/Preferences/</location-87>
+        <location-87>file://localhost/Users/david.morris/Library/</location-87>
         <location-0>file://localhost/Users/david.morris/data/prj/uese/fab/20260427</location-0>
-        <location-84>file://localhost/Users/david.morris/Library/PreferencePanes</location-84>
+        <location-84>file://localhost/Users/david.morris/.dotfiles</location-84>
         <location-1>file://localhost/Users/david.morris/data/admin/expenses/done</location-1>
-        <location-85>file://localhost/Users/david.morris/.dotfiles</location-85>
+        <location-85>file://localhost/Users/david.morris/Library/Preferences/muCommander</location-85>
     </recent_locations>
 </snapshot>
