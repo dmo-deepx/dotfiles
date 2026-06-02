@@ -5,4 +5,4 @@ export HOMEBREW_NO_ENV_HINTS=1
 
 compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION
 
-fastfetch  -c neofetch.jsonc --logo ~/.dotfiles/user-specific/david.morris/explode.png
+fastfetch -c ~/.dotfiles/user-specific/david.morris/fastfetch.jsonc

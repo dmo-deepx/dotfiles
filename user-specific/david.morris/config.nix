@@ -57,7 +57,7 @@
       "deno" # Secure runtime for JavaScript and TypeScript
       "fastfetch" # Fastfetch is a neofetch-like tool for fetching system information and displaying it in a visually appealing way.
       "mactop" # Apple Silicon Monitor Top written in Go Lang
-
+      "shellcheck" # Static analysis and lint tool, for (ba)sh scripts
       #"mac-mouse-fix"
     ];
 
