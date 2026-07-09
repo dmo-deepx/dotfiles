@@ -2,10 +2,10 @@
 <snapshot>
     <file_presenter>
         <show_fullscreen>false</show_fullscreen>
-        <window_position_y>432</window_position_y>
-        <window_position_x>1420</window_position_x>
-        <window_width>500</window_width>
-        <window_height>360</window_height>
+        <window_position_y>320</window_position_y>
+        <window_position_x>2339</window_position_x>
+        <window_width>879</window_width>
+        <window_height>536</window_height>
         <image>
             <show_status_bar>true</show_status_bar>
             <initial_zoom>native</initial_zoom>
@@ -43,11 +43,11 @@
         <window-0>
             <window_properties>
                 <single_panel_view>false</single_panel_view>
-                <x>0</x>
-                <width>1920</width>
-                <y>31</y>
+                <x>2007</x>
+                <width>1536</width>
+                <y>124</y>
                 <split_orientation>vertical</split_orientation>
-                <height>997</height>
+                <height>864</height>
             </window_properties>
             <panels>
                 <left>
@@ -112,7 +112,7 @@
                         <selection>0</selection>
                         <count>1</count>
                         <tab-0>
-                            <location>file://localhost/Users/david.morris/data/equipment/GNSS</location>
+                            <location>file://localhost/Users/david.morris/data/admin/expenses</location>
                             <locked>false</locked>
                         </tab-0>
                     </tabs>
@@ -134,12 +134,12 @@
                         </extension>
                         <size>
                             <show>true</show>
-                            <width>58</width>
+                            <width>53</width>
                             <position>2</position>
                         </size>
                         <permissions>
                             <show>true</show>
-                            <width>32</width>
+                            <width>37</width>
                             <position>4</position>
                         </permissions>
                         <name>
@@ -160,106 +160,106 @@
         </window-0>
     </windows>
     <recent_locations>
-        <location-79>file://localhost/Users/david.morris/code/localization/scripts</location-79>
-        <location-77>file://localhost/Users/david.morris/code/localization/scripts/sensor/gnss</location-77>
-        <location-78>file://localhost/Users/david.morris/code/localization/scripts/sensor</location-78>
-        <location-71>file://localhost/Users/david.morris/data/private</location-71>
-        <location-72>file://localhost/Users/david.morris/.claude</location-72>
-        <location-70>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts</location-70>
-        <location-75>file://localhost/Users/david.morris/code/deployment_tools</location-75>
-        <location-76>file://localhost/Users/david.morris/code/localization/scripts/sensor/vn300</location-76>
-        <location-73>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts/site/vn300</location-73>
-        <location-74>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts/site</location-74>
-        <location-68>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta</location-68>
-        <location-69>file://localhost/Users/david.morris/jakarta_ws/repos/prj_jakarta/scripts/simulation</location-69>
-        <location-66>file://localhost/Users/david.morris/jakarta_ws</location-66>
-        <location-67>file://localhost/Users/david.morris/jakarta_ws/repos</location-67>
-        <location-60>file://localhost/Users/david.morris/data/prj/uese</location-60>
-        <location-61>file://localhost/Users/david.morris/data/prj</location-61>
-        <location-64>file://localhost/Users/david.morris/data/admin</location-64>
-        <location-65>file://localhost/Users/david.morris/data/private/20260514_Daniel_Perpen</location-65>
-        <location-62>file://localhost/Users/david.morris/data/private/admin</location-62>
-        <location-63>file://localhost/Users/david.morris/data/admin/situations</location-63>
-        <location-57>file://localhost/Users/david.morris/Downloads/LocalSend</location-57>
-        <location-58>file://localhost/Users/david.morris/data/prj/uese/sensor_package/20260514_Working</location-58>
-        <location-55>file://localhost/Users/david.morris/data/prj/uese/sensor_package/20260512_GNSS_Compass</location-55>
-        <location-56>file://localhost/Users/david.morris/data/private/photos</location-56>
-        <location-59>file://localhost/Users/david.morris/data/prj/uese/sensor_package</location-59>
-        <location-50>file://localhost/Users/david.morris/data/equipment/Connectors</location-50>
-        <location-53>file://localhost/Users/david.morris/data/equipment/IMU/Firmware</location-53>
-        <location-54>file://localhost/Users/david.morris/data/prj/uese/sensor_package/20260512_VN300</location-54>
-        <location-51>file://localhost/Users/david.morris/data/equipment/IMU_Docs</location-51>
-        <location-52>file://localhost/Users/david.morris/data/equipment/IMU/Firmware/VN300</location-52>
-        <location-46>file://localhost/Users/david.morris/data/prj/jakarta/public_relations</location-46>
-        <location-47>file://localhost/Users/david.morris/data/prj/jakarta</location-47>
-        <location-44>file://localhost/Users/david.morris/Documents</location-44>
-        <location-45>file://localhost/Users/david.morris/data/prj/faro</location-45>
-        <location-48>file://localhost/Users/david.morris/data/admin/situations/20260430_Khan_CV</location-48>
-        <location-49>file://localhost/Users/david.morris/data/equipment/Lidar</location-49>
-        <location-42>file://localhost/Users/david.morris/data/onedrive/data</location-42>
-        <location-43>file://localhost/Users/david.morris/data/onedrive</location-43>
-        <location-40>file://localhost/Users/david.morris/data/onedrive/data/field/jakarta</location-40>
-        <location-41>file://localhost/Users/david.morris/data/onedrive/data/field</location-41>
-        <location-35>file://localhost/Users/david.morris/.dotfiles/apps/muCommander/extensions</location-35>
-        <location-36>file://localhost/Users/david.morris/.dotfiles/apps/muCommander/logs</location-36>
-        <location-33>file://localhost/Users/david.morris/Downloads/LocalSend/20260424_DeepX_Annuals</location-33>
-        <location-34>file://localhost/Users/david.morris/code/ntripcaster-2.0.48</location-34>
-        <location-39>file://localhost/Users/david.morris/data/prj/jakarta/Videos</location-39>
-        <location-37>file://localhost/Users/david.morris/.dotfiles/apps/muCommander/themes</location-37>
-        <location-38>file://localhost/Users/david.morris/code/ntripcaster-2.0.48/conf</location-38>
-        <location-31>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware</location-31>
-        <location-32>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/diagram_main</location-32>
-        <location-30>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/個別回路図</location-30>
+        <location-79>file://localhost/Users/david.morris/data/prj/uese</location-79>
+        <location-77>file://localhost/Users/david.morris/data/admin/situations</location-77>
+        <location-78>file://localhost/Users/david.morris/data/prj</location-78>
+        <location-71>file://localhost/Users/david.morris/code/electronics/library/_TO_IMPORT</location-71>
+        <location-72>file://localhost/Users/david.morris/Downloads/SMCJ33A.zip</location-72>
+        <location-70>file://localhost/Users/david.morris/Downloads/SMCJ33A.zip/KiCADv6/</location-70>
+        <location-75>file://localhost/Users/david.morris/code/electronics/tmp</location-75>
+        <location-76>file://localhost/Users/david.morris</location-76>
+        <location-73>file://localhost/Users/david.morris/code/electronics/library/3dmodels</location-73>
+        <location-74>file://localhost/Users/david.morris/code/electronics/library</location-74>
+        <location-68>file://localhost/Users/david.morris/code/electronics/library/_TO_IMPORT/mosfet</location-68>
+        <location-69>file://localhost/Users/david.morris/code/electronics/library/_TO_IMPORT/footprints.pretty</location-69>
+        <location-66>file://localhost/Users/david.morris/Downloads/SZBZX84C15LT1G (1).zip</location-66>
+        <location-67>file://localhost/Users/david.morris/code/electronics/library/_TO_IMPORT/zener</location-67>
+        <location-60>file://localhost/Users/david.morris/data/equipment/Lidar</location-60>
+        <location-61>file://localhost/Users/david.morris/data/equipment/ee</location-61>
+        <location-64>file://localhost/Users/david.morris/Downloads/ZXMP10A13FQTA.zip</location-64>
+        <location-65>file://localhost/Users/david.morris/Downloads/SZBZX84C15LT1G.zip</location-65>
+        <location-62>file://localhost/Users/david.morris/code/</location-62>
+        <location-63>file://localhost/Users/david.morris/data/equipment/ee/Components</location-63>
+        <location-57>file://localhost/Users/david.morris/data/admin/expenses/20260620_Tokyo_Cairo</location-57>
+        <location-58>file://localhost/Users/david.morris/Documents/Parallels</location-58>
+        <location-55>file://localhost/Users/david.morris/data/private</location-55>
+        <location-56>file://localhost/Users/david.morris/Downloads/LocalSend</location-56>
+        <location-59>file://localhost/Users/david.morris/Documents</location-59>
+        <location-50>file://localhost/Users/david.morris/code/dmo-scripts</location-50>
+        <location-53>file://localhost/Users/david.morris/data/private/admin/receipts</location-53>
+        <location-54>file://localhost/Users/david.morris/data/private/admin</location-54>
+        <location-51>file://localhost/Users/david.morris/code/dmo-scripts/vn300_docs</location-51>
+        <location-52>file://localhost/Users/david.morris/data/private/admin/purchase</location-52>
+        <location-46>file://localhost/Users/david.morris/data/prj/napoli/gis/data/imports</location-46>
+        <location-47>file://localhost/Users/david.morris/Downloads/XR34350IL.zip/KiCADv6/footprints.pretty/</location-47>
+        <location-44>file://localhost/Users/david.morris/data/prj/napoli/gis/data/geopackage</location-44>
+        <location-45>file://localhost/Users/david.morris/data/prj/napoli/gis/data</location-45>
+        <location-48>file://localhost/Users/david.morris/Downloads/XR34350IL.zip/KiCADv6/</location-48>
+        <location-49>file://localhost/Users/david.morris/Downloads/XR34350IL.zip</location-49>
+        <location-42>file://localhost/Users/david.morris/data/prj/napoli</location-42>
+        <location-43>file://localhost/Users/david.morris/data/prj/napoli/gis</location-43>
+        <location-40>file://localhost/Users/david.morris/data/prj/napoli/fab</location-40>
+        <location-41>file://localhost/Users/david.morris/Downloads/G04-a-11_5135-jgd_GML.zip</location-41>
+        <location-35>file://localhost/Users/david.morris/data/prj/napoli/gis/data/geopackage/svg/transport</location-35>
+        <location-36>file://localhost/Users/david.morris/data/prj/napoli/gis/data/geopackage/svg</location-36>
+        <location-33>file://localhost/Users/david.morris/data/prj/napoli/gis/data/geopackage/svg/sport</location-33>
+        <location-34>file://localhost/Users/david.morris/data/prj/napoli/gis/data/geopackage/svg/tourism</location-34>
+        <location-39>file://localhost/Users/david.morris/data/prj/uese/fab</location-39>
+        <location-37>file://localhost/Users/david.morris/data/prj/napoli/gis/data/geopackage/data</location-37>
+        <location-38>file://localhost/Users/david.morris/data/prj/napoli/gis/data/maps</location-38>
+        <location-31>file://localhost/Users/david.morris/data/prj/napoli/gis/data/geopackage/svg/landuse</location-31>
+        <location-32>file://localhost/Users/david.morris/data/prj/napoli/gis/data/geopackage/svg/leisure</location-32>
+        <location-30>file://localhost/Users/david.morris/data/prj/napoli/gis/data/geopackage/svg/amenity</location-30>
         <count>100</count>
-        <location-19>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/Connector</location-19>
-        <location-24>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/PLC</location-24>
-        <location-25>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/safety_device_check</location-25>
-        <location-22>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/Napoli D6 tester</location-22>
-        <location-23>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/old_circuit_main</location-23>
-        <location-28>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/個別回路図/2026-01-22 plot</location-28>
-        <location-29>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/個別回路図/2026-01-16 plot(edit_keyCylinder)</location-29>
-        <location-26>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/System verification testing</location-26>
-        <location-27>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/個別回路図/napoli_bull_d6</location-27>
-        <location-20>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/module/module</location-20>
-        <location-21>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/module</location-21>
-        <location-90>file://localhost/Users/david.morris</location-90>
-        <location-8>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware</location-8>
-        <location-9>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/diagram_main</location-9>
-        <location-13>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions</location-13>
-        <location-14>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/213_Napoli Bulldozer/</location-14>
-        <location-11>file://localhost/Users/david.morris/data/gdrive</location-11>
-        <location-99>file://localhost/Users/david.morris/Downloads/</location-99>
-        <location-12>file://localhost/Users/david.morris/data/gdrive/Shared drives</location-12>
-        <location-17>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/back-up/circuit_main</location-17>
-        <location-18>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development/Hardware/back-up</location-18>
-        <location-15>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer</location-15>
-        <location-16>file://localhost/Users/david.morris/data/gdrive/Shared drives/Solutions/213_Napoli Bulldozer/Development</location-16>
-        <location-93>file://localhost/Users/david.morris/data/equipment/IMU/vn300_registers</location-93>
-        <location-94>file://localhost/Users/david.morris/data/equipment/IMU</location-94>
-        <location-91>file://localhost/Users/david.morris/code/dmo-scripts/vn300_docs/code</location-91>
-        <location-92>file://localhost/Users/david.morris/data/equipment/IMU/vn300_registers/code</location-92>
-        <location-97>file://localhost/Users/david.morris/code/dmo-scripts/vn300_docs</location-97>
-        <location-10>file://localhost/Users/david.morris/data/admin/expenses/</location-10>
-        <location-98>file://localhost/Users/david.morris/code/dmo-scripts/</location-98>
-        <location-95>file://localhost/Users/david.morris/data/equipment</location-95>
-        <location-96>file://localhost/Users/david.morris/data/equipment/GNSS</location-96>
-        <location-88>file://localhost/Users/david.morris/data</location-88>
-        <location-89>file://localhost/Users/david.morris/code</location-89>
-        <location-6>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions</location-6>
-        <location-82>file://localhost/Users/david.morris/.dotfiles/apps</location-82>
-        <location-7>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/213_Napoli Bulldozer/Development</location-7>
-        <location-83>file://localhost/Users/david.morris/Library/PreferencePanes</location-83>
-        <location-4>file://localhost/Users/david.morris/Google Drive/Shared drives</location-4>
-        <location-80>file://localhost/Users/david.morris/code/localization</location-80>
-        <location-5>file://localhost/Users/david.morris/Google Drive/Shared drives/Solutions/102_Hardware</location-5>
-        <location-81>file://localhost/Users/david.morris/.dotfiles/apps/muCommander</location-81>
-        <location-2>file://localhost/Users/david.morris/data/admin/expenses/20260408_travel_SKY</location-2>
-        <location-86>file://localhost/Users/david.morris/Library/Preferences/</location-86>
-        <location-3>file://localhost/Users/david.morris/Google Drive</location-3>
-        <location-87>file://localhost/Users/david.morris/Library/</location-87>
-        <location-0>file://localhost/Users/david.morris/data/prj/uese/fab/20260427</location-0>
-        <location-84>file://localhost/Users/david.morris/.dotfiles</location-84>
-        <location-1>file://localhost/Users/david.morris/data/admin/expenses/done</location-1>
-        <location-85>file://localhost/Users/david.morris/Library/Preferences/muCommander</location-85>
+        <location-19>file://localhost/Users/david.morris/code/dmo-scripts/ee</location-19>
+        <location-24>file://localhost/Users/david.morris/data/prj/jakarta/gis/data/maps</location-24>
+        <location-25>file://localhost/Users/david.morris/data/prj/jakarta/gis/data</location-25>
+        <location-22>file://localhost/Users/david.morris/code/dmo-scripts/ee/rs232_revolt/rs232_revolt</location-22>
+        <location-23>file://localhost/Users/david.morris/data/equipment/Computers</location-23>
+        <location-28>file://localhost/Users/david.morris/Downloads/custom-ccbcc14c-20260623-en-gpkg.zip</location-28>
+        <location-29>file://localhost/Users/david.morris/data/prj/napoli/gis/data/data</location-29>
+        <location-26>file://localhost/Users/david.morris/data/prj/jakarta/gis</location-26>
+        <location-27>file://localhost/Users/david.morris/data/prj/jakarta</location-27>
+        <location-20>file://localhost/Users/david.morris/code/dmo-scripts/ee/rs232_revolt</location-20>
+        <location-21>file://localhost/Users/david.morris/code/electronics/projects/rs232_revolt/sim</location-21>
+        <location-90>file://localhost/Users/david.morris/data/equipment/network</location-90>
+        <location-8>file://localhost/Users/david.morris/code/electronics/kicad/library/import/RLS_397/KiCADv6</location-8>
+        <location-9>file://localhost/Users/david.morris/code/electronics/kicad/library/import/RLS_397</location-9>
+        <location-13>file://localhost/Users/david.morris/code/electronics/rs232_revolt/libs</location-13>
+        <location-14>file://localhost/Users/david.morris/code/electronics/kicad</location-14>
+        <location-11>file://localhost/Users/david.morris/code/electronics/kicad/library/3d</location-11>
+        <location-99>file://localhost/Users/david.morris/data/admin/expenses</location-99>
+        <location-12>file://localhost/Users/david.morris/code/electronics/rs232_revolt/libs/kicad</location-12>
+        <location-17>file://localhost/Users/david.morris/code/electronics/rs232_revolt</location-17>
+        <location-18>file://localhost/Users/david.morris/code/electronics/kicad/library</location-18>
+        <location-15>file://localhost/Users/david.morris/code/electronics/rs232_revolt/rs232_revolt/.history</location-15>
+        <location-16>file://localhost/Users/david.morris/code/electronics/rs232_revolt/rs232_revolt</location-16>
+        <location-93>file://localhost/Users/david.morris/data/equipment/GNSS/antennas</location-93>
+        <location-94>file://localhost/Users/david.morris/data</location-94>
+        <location-91>file://localhost/Users/david.morris/data/equipment/</location-91>
+        <location-92>file://localhost/Users/david.morris/data/equipment/GNSS</location-92>
+        <location-97>file://localhost/Users/david.morris/Downloads/</location-97>
+        <location-10>file://localhost/Users/david.morris/code/electronics/kicad/library/import</location-10>
+        <location-98>file://localhost/Users/david.morris/data/admin/expenses/20260703_Equipment_To_Yushima</location-98>
+        <location-95>file://localhost/Users/david.morris/data/admin</location-95>
+        <location-96>file://localhost/Users/david.morris/data/admin/expenses/20260702_Purchase_of_Equipment</location-96>
+        <location-88>file://localhost/Users/david.morris/code/electronics/fab/wip/rs232_revolt/20260630T0810Z-af15448-dirty</location-88>
+        <location-89>file://localhost/Users/david.morris/data/equipment/RF</location-89>
+        <location-6>file://localhost/Users/david.morris/code/electronics/kicad/library/import/footprints.pretty</location-6>
+        <location-82>file://localhost/Users/david.morris/code/electronics/projects/rs232_revolt</location-82>
+        <location-7>file://localhost/Users/david.morris/code/electronics/kicad/library/import/RLS_567</location-7>
+        <location-83>file://localhost/Users/david.morris/code/electronics/projects/</location-83>
+        <location-4>file://localhost/Users/david.morris/code/dmo-scripts/ee/kicad</location-4>
+        <location-80>file://localhost/Users/david.morris/data/prj/uese/docs</location-80>
+        <location-5>file://localhost/Users/david.morris/code/electronics/kicad/library/dx_connector.pretty</location-5>
+        <location-81>file://localhost/Users/david.morris/data/prj/uese/docs/20260630_eCon_Camera</location-81>
+        <location-2>file://localhost/Users/david.morris/data/admin/expenses/20260610_LidarCable</location-2>
+        <location-86>file://localhost/Users/david.morris/code/electronics/fab/wip</location-86>
+        <location-3>file://localhost/Users/david.morris/data/admin/expenses/20260606_Filament</location-3>
+        <location-87>file://localhost/Users/david.morris/code/electronics/fab/wip/rs232_revolt</location-87>
+        <location-0>file://localhost/Users/david.morris/code/dmo-scripts/deepx@10.1.1.101</location-0>
+        <location-84>file://localhost/Users/david.morris/code/electronics</location-84>
+        <location-1>file://localhost/Users/david.morris/code/base_station</location-1>
+        <location-85>file://localhost/Users/david.morris/code/electronics/fab</location-85>
     </recent_locations>
 </snapshot>
