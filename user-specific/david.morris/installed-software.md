@@ -1,6 +1,6 @@
 # Installed software — dmo-m2
 
-_Generated 2026-07-05 19:53:01 · macOS 26.5.1 (arm64)_
+_Generated 2026-07-10 10:53:00 · macOS 26.5.1 (arm64)_
 
 Dates are install/added dates where the package manager exposes them.
 
@@ -18,7 +18,7 @@ Dates are install/added dates where the package manager exposes them.
 2026-06-08  Docker                                   4.68.0
 2026-06-08  FTDIUSBSerialVCPDextInstaller            1.6
 2026-06-08  GIMP                                     3.2.2
-2026-06-08  Google Chrome                            149.0.7827.201
+2026-06-08  Google Chrome                            150.0.7871.115
 2026-06-08  Greenshot                                1.2.19
 2026-06-08  Hot                                      1.9.4
 2026-06-08  Keka                                     1.6.1
@@ -42,7 +42,7 @@ Dates are install/added dates where the package manager exposes them.
 2026-06-08  VLC                                      3.0.23
 2026-06-08  VNC Viewer                               7.15.1
 2026-06-08  WaveForms                                3.25.1
-2026-06-08  Zed                                      1.9.0
+2026-06-08  Zed                                      1.10.1
 2026-06-08  ZeroTier                                 1.16.1
 2026-06-08  foobar2000                               2.25.8
 2026-06-08  geoviz-jfe-mac-dev                       1.7.1-89
@@ -51,23 +51,23 @@ Dates are install/added dates where the package manager exposes them.
 2026-06-10  Autodesk Fusion Service Utility          2703.1.20
 2026-06-10  Remove Autodesk Fusion                   2703.1.20
 2026-06-11  LTspice                                  26.0.2.1
-2026-06-15  Google Docs                              127.0
-2026-06-15  Google Drive                             127.0
-2026-06-15  Google Sheets                            127.0
-2026-06-15  Google Slides                            127.0
 2026-06-17  Company Portal                           5.2604.2
 2026-06-23  Microsoft 365 Copilot                    1.2606
 2026-06-23  Microsoft Defender                       101.26042.0020
 2026-06-25  Parallels Desktop                        26.4.0
-2026-06-29  Visual Studio Code                       1.126.0
-2026-06-30  Microsoft Excel                          16.110.2
-2026-06-30  Microsoft OneNote                        16.110.2
-2026-06-30  Microsoft PowerPoint                     16.110.2
-2026-06-30  Microsoft Word                           16.110.2
-2026-07-01  OneDrive                                 26.108.0607
 2026-07-03  Claude                                   1.18286.0
 2026-07-03  Raspberry Pi Imager                      v2.0.10
-2026-07-05  OpenVPN Connect                          3.8.2
+2026-07-06  Google Docs                              128.0
+2026-07-06  Google Drive                             128.0
+2026-07-06  Google Sheets                            128.0
+2026-07-06  Google Slides                            128.0
+2026-07-07  OpenVPN Connect                          3.8.2
+2026-07-08  Microsoft Excel                          16.110.3
+2026-07-08  Microsoft OneNote                        16.110.3
+2026-07-08  Microsoft PowerPoint                     16.110.3
+2026-07-08  Microsoft Word                           16.110.3
+2026-07-09  OneDrive                                 26.113.0614
+2026-07-09  Visual Studio Code                       1.128.0
 ```
 
 ## Homebrew formulae
@@ -201,7 +201,7 @@ Dates are install/added dates where the package manager exposes them.
 
 ## nix-darwin system packages
 
-_System generation built 2026-06-30 · no per-package dates in nix._
+_System generation built 2026-07-09 · no per-package dates in nix._
 
 ```
 7zz-25.01
@@ -209,8 +209,9 @@ LanguageTool-6.6
 bash-interactive-5.3p3
 bat-0.26.1
 bats-1.12.0
+bcc
 bind-9.20.23-dnsutils
-bitwarden-cli-2026.5.0
+bitwarden-cli-2026.6.0
 cachix-1.9.1-bin
 coreutils-9.8
 darwin-help
@@ -245,7 +246,7 @@ nix-zsh-completions-0.5.1
 nixd-2.7.0
 nmap-7.98
 parallel-20251022
-perl5.40.0-Image-ExifTool-13.58
+perl5.40.0-Image-ExifTool-13.59
 pgweb-0.17.0
 pinentry-mac-1.1.1.1
 pngquant-3.0.3
