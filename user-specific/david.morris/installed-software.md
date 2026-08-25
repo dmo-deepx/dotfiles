@@ -1,6 +1,6 @@
 # Installed software — dmo-m2
 
-_Generated 2026-07-10 10:53:00 · macOS 26.5.1 (arm64)_
+_Generated 2026-08-24 19:53:01 · macOS 26.5.2 (arm64)_
 
 Dates are install/added dates where the package manager exposes them.
 
@@ -8,122 +8,125 @@ Dates are install/added dates where the package manager exposes them.
 
 ```
 2026-04-22  Claude Code URL Handler                  
-2026-04-23  Safari                                   26.5
-2026-06-08  AppCleaner                               3.6.8
-2026-06-08  Bitwarden                                2026.3.1
-2026-06-08  Blender                                  5.1.1
-2026-06-08  CodexBar                                 0.32.4
-2026-06-08  Disk Inventory X                         1.3
-2026-06-08  DisplayLink Manager                      16.0.16
-2026-06-08  Docker                                   4.68.0
-2026-06-08  FTDIUSBSerialVCPDextInstaller            1.6
-2026-06-08  GIMP                                     3.2.2
-2026-06-08  Google Chrome                            150.0.7871.115
-2026-06-08  Greenshot                                1.2.19
-2026-06-08  Hot                                      1.9.4
-2026-06-08  Keka                                     1.6.1
-2026-06-08  LanguageTool for Desktop                 2.12.1
-2026-06-08  Maccy                                    2.6.1
-2026-06-08  MenuMeters                               2.1.6.1
-2026-06-08  Microsoft Outlook                        16.109.3
-2026-06-08  Microsoft Teams                          26120.3106.4725.800
-2026-06-08  Notion                                   7.20.0
-2026-06-08  OpenMV IDE                               4.8.9
-2026-06-08  Phoenix Slides                           1.5.9
-2026-06-08  PicoScope 7 T&M                          7.2.19
-2026-06-08  QCAD-Pro                                 3.32
-2026-06-08  QGIS-final-4_0_0                         4.0.0
-2026-06-08  QGroundControl                           5.0
-2026-06-08  Quick Camera                             1.5.0
-2026-06-08  Saleae Logic                             2.4.44
-2026-06-08  Slack                                    4.50.128
-2026-06-08  Stats                                    2.12.14
-2026-06-08  Tiles                                    1.3.2
-2026-06-08  VLC                                      3.0.23
-2026-06-08  VNC Viewer                               7.15.1
-2026-06-08  WaveForms                                3.25.1
-2026-06-08  Zed                                      1.10.1
-2026-06-08  ZeroTier                                 1.16.1
-2026-06-08  foobar2000                               2.25.8
-2026-06-08  geoviz-jfe-mac-dev                       1.7.1-89
-2026-06-08  muCommander                              1.6.0
-2026-06-10  Autodesk Fusion                          2703.1.20
-2026-06-10  Autodesk Fusion Service Utility          2703.1.20
-2026-06-10  Remove Autodesk Fusion                   2703.1.20
-2026-06-11  LTspice                                  26.0.2.1
-2026-06-17  Company Portal                           5.2604.2
-2026-06-23  Microsoft 365 Copilot                    1.2606
-2026-06-23  Microsoft Defender                       101.26042.0020
-2026-06-25  Parallels Desktop                        26.4.0
-2026-07-03  Claude                                   1.18286.0
-2026-07-03  Raspberry Pi Imager                      v2.0.10
-2026-07-06  Google Docs                              128.0
-2026-07-06  Google Drive                             128.0
-2026-07-06  Google Sheets                            128.0
-2026-07-06  Google Slides                            128.0
-2026-07-07  OpenVPN Connect                          3.8.2
-2026-07-08  Microsoft Excel                          16.110.3
-2026-07-08  Microsoft OneNote                        16.110.3
-2026-07-08  Microsoft PowerPoint                     16.110.3
-2026-07-08  Microsoft Word                           16.110.3
-2026-07-09  OneDrive                                 26.113.0614
-2026-07-09  Visual Studio Code                       1.128.0
+2026-06-24  Safari                                   26.5.2
+2026-07-10  AppCleaner                               3.6.8
+2026-07-10  Bitwarden                                2026.6.1
+2026-07-10  Blender                                  5.1.2
+2026-07-10  CodexBar                                 0.44.0
+2026-07-10  Disk Inventory X                         1.3
+2026-07-10  DisplayLink Manager                      16.0.16
+2026-07-10  FTDIUSBSerialVCPDextInstaller            1.6
+2026-07-10  GIMP                                     3.2.4
+2026-07-10  Google Chrome                            151.0.7922.170
+2026-07-10  Greenshot                                1.2.19
+2026-07-10  Hot                                      1.9.4
+2026-07-10  Keka                                     1.6.7
+2026-07-10  LTspice                                  26.0.2.1
+2026-07-10  LanguageTool for Desktop                 3.1.2
+2026-07-10  Maccy                                    2.6.1
+2026-07-10  MenuMeters                               2.1.6.1
+2026-07-10  Notion                                   7.25.1
+2026-07-10  OpenMV IDE                               4.8.9
+2026-07-10  Phoenix Slides                           1.6.2
+2026-07-10  PicoScope 7 T&M                          7.2.19
+2026-07-10  QCAD-Pro                                 3.32
+2026-07-10  QGroundControl                           5.0
+2026-07-10  Quick Camera                             1.5.0
+2026-07-10  Raspberry Pi Imager                      v2.0.10
+2026-07-10  Saleae Logic                             2.4.44
+2026-07-10  Slack                                    4.50.140
+2026-07-10  Stats                                    3.0.8
+2026-07-10  Tiles                                    1.3.2
+2026-07-10  VLC                                      3.0.23
+2026-07-10  VNC Viewer                               7.15.1
+2026-07-10  WaveForms                                3.25.1
+2026-07-10  Zed                                      1.16.1
+2026-07-10  ZeroTier                                 1.16.1
+2026-07-10  foobar2000                               2.25.10
+2026-07-10  geoviz-jfe-mac-dev                       1.7.1-89
+2026-07-10  muCommander                              1.6.0
+2026-07-13  Company Portal                           5.2606.0
+2026-07-13  OpenVPN Connect                          3.8.2
+2026-07-13  QGIS-final-4_2_0                         4.2.0
+2026-07-14  XCTU                                     
+2026-07-28  Git Lineage                              0.9.4
+2026-08-07  HandBrake                                1.11.2
+2026-08-07  Parallels Desktop                        26.4.1
+2026-08-07  Whisky                                   2.3.5
+2026-08-11  Microsoft 365 Copilot                    1.2608
+2026-08-11  QLMarkdown                               1.5.2
+2026-08-12  Autodesk Fusion                          2704.1.53
+2026-08-12  Autodesk Fusion Service Utility          2704.1.53
+2026-08-12  Remove Autodesk Fusion                   2704.1.53
+2026-08-16  Microsoft Outlook                        16.112
+2026-08-16  Microsoft Teams                          26213.1006.5011.1671
+2026-08-19  Microsoft Excel                          16.112.1
+2026-08-19  Microsoft OneNote                        16.112.1
+2026-08-19  Microsoft PowerPoint                     16.112.1
+2026-08-19  Microsoft Word                           16.112.1
+2026-08-19  Visual Studio Code                       1.133.0
+2026-08-20  Google Docs                              130.0
+2026-08-20  Google Drive                             130.0
+2026-08-20  Google Sheets                            130.0
+2026-08-20  Google Slides                            130.0
+2026-08-21  Claude                                   1.34493.1
+2026-08-21  Microsoft Defender                       101.26062.0012
+2026-08-21  OneDrive                                 26.145.0728
+2026-08-23  pixet                                    1.2.1
 ```
 
 ## Homebrew formulae
 
 ```
-2026-04-10  ca-certificates                2026-03-19
-2026-04-10  certifi                        2026.2.25
-2026-04-10  cmake                          4.3.1
-2026-04-10  deno                           2.7.12
-2026-04-10  fzf                            0.71.0
+2026-04-10  ca-certificates                2026-05-14
+2026-04-10  certifi                        2026.6.17
+2026-04-10  cmake                          4.4.0
+2026-04-10  deno                           2.9.2
+2026-04-10  fzf                            0.74.0
 2026-04-10  gettext                        1.0
 2026-04-10  git-lfs                        3.7.1
-2026-04-10  glib                           2.88.0
-2026-04-10  jpeg-turbo                     3.1.4.1
+2026-04-10  glib                           2.88.2
+2026-04-10  jpeg-turbo                     3.2.0
 2026-04-10  libserialport                  0.1.2
-2026-04-10  libtiff                        4.7.1_1
 2026-04-10  libunistring                   1.4.2
-2026-04-10  little-cms2                    2.18
+2026-04-10  little-cms2                    2.19
 2026-04-10  lua                            5.5.0
 2026-04-10  lz4                            1.10.0
 2026-04-10  mpdecimal                      4.0.1
-2026-04-10  openssl@3                      3.6.2
+2026-04-10  openssl@3                      3.6.3
 2026-04-10  pcre2                          10.47_1
-2026-04-10  python@3.14                    3.14.4
+2026-04-10  python@3.14                    3.14.6
 2026-04-10  readline                       8.3.3
-2026-04-10  sqlite                         3.51.3
+2026-04-10  sqlite                         3.53.3
 2026-04-10  tio                            3.9_1
 2026-04-10  xz                             5.8.3
-2026-04-10  yt-dlp                         2026.3.17_1
+2026-04-10  yt-dlp                         2026.7.4
 2026-04-10  zstd                           1.5.7_1
 2026-04-14  dfu-util                       0.11
-2026-04-14  gh                             2.89.0
-2026-04-14  libusb                         1.0.29
+2026-04-14  gh                             2.96.0
+2026-04-14  libusb                         1.0.30
 2026-04-15  boost                          1.90.0_1
 2026-04-15  confuse                        3.3
 2026-04-15  icu4c@78                       78.3
 2026-04-15  libftdi                        1.5_2
-2026-04-15  pkgconf                        2.5.1
+2026-04-15  pkgconf                        3.0.1
 2026-04-22  bash                           5.3.9
 2026-04-22  direnv                         2.37.1
 2026-04-22  ncurses                        6.6
 2026-05-13  cairo                          1.18.4
-2026-05-13  fontconfig                     2.17.1
+2026-05-13  fontconfig                     2.18.2
 2026-05-13  freetype                       2.14.3
 2026-05-13  gmp                            6.3.0
-2026-05-13  gnupg                          2.5.19
-2026-05-13  gnutls                         3.8.13
-2026-05-13  gpgme                          2.0.1
-2026-05-13  gpgmepp                        2.0.0
+2026-05-13  gnupg                          2.5.21
+2026-05-13  gnutls                         3.8.13_2
+2026-05-13  gpgme                          2.1.2
+2026-05-13  gpgmepp                        2.1.0
 2026-05-13  libassuan                      3.0.2
-2026-05-13  libevent                       2.1.12_1
+2026-05-13  libevent                       2.1.13
 2026-05-13  libgcrypt                      1.12.2
 2026-05-13  libgpg-error                   1.61
 2026-05-13  libidn2                        2.3.8
-2026-05-13  libksba                        1.7.0
-2026-05-13  libnghttp2                     1.69.0
+2026-05-13  libksba                        1.8.0
 2026-05-13  libpng                         1.6.58
 2026-05-13  libtasn1                       4.21.0
 2026-05-13  libx11                         1.8.13
@@ -133,22 +136,21 @@ Dates are install/added dates where the package manager exposes them.
 2026-05-13  libxext                        1.3.7
 2026-05-13  libxrender                     0.9.12
 2026-05-13  lzo                            2.10
-2026-05-13  nettle                         3.10.2
+2026-05-13  nettle                         4.0
 2026-05-13  npth                           1.8
 2026-05-13  nspr                           4.39
-2026-05-13  nss                            3.123.1
+2026-05-13  nss                            3.125
 2026-05-13  openjpeg                       2.5.4
 2026-05-13  p11-kit                        0.26.2
-2026-05-13  pinentry                       1.3.2
+2026-05-13  pinentry                       1.3.3
 2026-05-13  pixman                         0.46.4
-2026-05-13  poppler                        26.04.0
-2026-05-13  unbound                        1.25.0
+2026-05-13  poppler                        26.07.0
 2026-05-13  xorgproto                      2025.1
-2026-05-18  tmux                           3.6a
+2026-05-18  tmux                           3.7b
 2026-05-18  utf8proc                       2.11.3
-2026-05-21  fastfetch                      2.62.1
+2026-05-21  fastfetch                      2.66.0
 2026-05-21  yyjson                         0.12.0
-2026-05-25  mactop                         2.1.3
+2026-05-25  mactop                         2.1.5
 2026-06-02  shellcheck                     0.11.0
 2026-06-16  pigz                           2.8_1
 2026-06-30  at-spi2-core                   2.60.3
@@ -156,9 +158,9 @@ Dates are install/added dates where the package manager exposes them.
 2026-06-30  fribidi                        1.0.16
 2026-06-30  gdk-pixbuf                     2.44.6
 2026-06-30  gerbv                          2.11.1
-2026-06-30  graphite2                      1.3.14
+2026-06-30  graphite2                      1.3.15
 2026-06-30  gtk+                           2.24.33_2
-2026-06-30  harfbuzz                       14.2.0
+2026-06-30  harfbuzz                       14.2.1
 2026-06-30  hicolor-icon-theme             0.18
 2026-06-30  libdatrie                      0.2.14
 2026-06-30  libthai                        0.1.30
@@ -166,42 +168,78 @@ Dates are install/added dates where the package manager exposes them.
 2026-06-30  libxi                          1.8.2
 2026-06-30  libxtst                        1.2.5
 2026-06-30  pango                          1.57.1
+2026-07-13  giflib                         6.1.3
+2026-07-13  json-c                         0.19
+2026-07-13  libtiff                        4.7.2
+2026-07-13  ripgrep                        15.1.0
+2026-07-13  webp                           1.6.0
+2026-07-18  socat                          1.8.1.3
+2026-07-21  glow                           2.1.2
+2026-08-07  dav1d                          1.5.3
+2026-08-07  handbrake                      1.11.2
+2026-08-07  jansson                        2.15.1
+2026-08-07  lame                           4.0
+2026-08-07  libass                         0.17.5
+2026-08-07  libbluray                      1.4.1
+2026-08-07  libdvdcss                      1.5.0
+2026-08-07  libdvdnav                      7.0.0
+2026-08-07  libdvdread                     7.0.1
+2026-08-07  libogg                         1.3.6
+2026-08-07  libudfread                     1.2.0
+2026-08-07  libunibreak                    7.0
+2026-08-07  libvorbis                      1.3.7
+2026-08-07  libvpx                         1.16.0
+2026-08-07  mpg123                         1.33.6
+2026-08-07  opus                           1.6.1
+2026-08-07  speex                          1.2.1
+2026-08-07  svt-av1                        4.1.0
+2026-08-07  theora                         1.2.0
+2026-08-07  x264                           r3222
+2026-08-07  zimg                           3.0.6
+2026-08-11  autoconf                       2.73
+2026-08-11  automake                       1.18.1_1
+2026-08-11  libtool                        2.5.4
+2026-08-11  m4                             1.4.21
+2026-08-11  nasm                           3.02
+2026-08-11  ninja                          1.13.2
 ```
 
 ## Homebrew casks
 
 ```
 2026-04-10  appcleaner                     3.6.8
-2026-04-10  bitwarden                      2026.3.1
-2026-04-10  claude-code                    2.1.126
+2026-04-10  bitwarden                      2026.6.1
+2026-04-10  claude-code                    2.1.197
 2026-04-10  disk-inventory-x               1.3
-2026-04-10  docker-desktop                 4.68.0,223695
-2026-04-10  foobar2000                     2.25.8
-2026-04-10  gimp                           3.2.2
+2026-04-10  foobar2000                     2.25.10
+2026-04-10  gimp                           3.2.4
 2026-04-10  hot                            1.9.4
-2026-04-10  keka                           1.6.1
-2026-04-10  languagetool-desktop           2.12.1
+2026-04-10  keka                           1.6.7
+2026-04-10  languagetool-desktop           3.1.2
 2026-04-10  maccy                          2.6.1
-2026-04-10  notion                         7.10.0
-2026-04-10  openvpn-connect                3.8.1,5790
-2026-04-10  phoenix-slides                 1.5.9
-2026-04-10  qgis                           4.0.0
+2026-04-10  notion                         7.25.1
+2026-04-10  openvpn-connect                3.8.2,6009
+2026-04-10  phoenix-slides                 1.6.2
+2026-04-10  qgis                           4.2.0
 2026-04-10  tiles                          1.3.2,03b500a8
 2026-04-10  visual-studio-code             1.115.0
 2026-04-10  vlc                            3.0.23
 2026-04-10  zed                            0.231.2
-2026-04-27  blender                        5.1.1
-2026-04-27  kicad                          10.0.1
+2026-04-27  blender                        5.1.2
+2026-04-27  kicad                          10.0.4
 2026-05-19  codexbar                       0.27.0
 2026-05-21  menumeters                     2.1.6.1
-2026-05-21  stats                          2.12.13
+2026-05-21  stats                          3.0.8
 2026-05-25  vnc-viewer                     7.15.1
-2026-06-12  raspberry-pi-imager            2.0.8
+2026-06-12  raspberry-pi-imager            2.0.10
+2026-08-07  handbrake-app                  1.11.2
+2026-08-07  whisky                         2.3.5
+2026-08-11  qlmarkdown                     1.5.2
 ```
 
 ## nix-darwin system packages
 
-_System generation built 2026-07-09 · no per-package dates in nix._
+_System generation built 2026-08-17 · no per-package dates in nix._
 
 ```
 7zz-25.01
@@ -221,7 +259,6 @@ darwin-rebuild
 darwin-uninstaller
 darwin-version
 devenv-2.1.2
-docker-compose-2.40.3
 ext4fuse-0.1.3
 fasttext-0.9.2-unstable-2023-11-28
 fdupes-2.4.0
@@ -231,7 +268,9 @@ geckodriver-0.36.0
 git-2.51.2
 gnupg-2.4.9
 go-task-3.45.5
+grc-1.13
 htop-3.4.1
+iproute2mac-1.6.0
 iterm2-3.5.14
 localsend-1.17.0
 mactop-2.1.3
@@ -269,17 +308,21 @@ update-ssh-config
 upx-5.0.2
 websocat-1.14.0
 wget-1.25.0
+wireviz-0.4.1
 wpscan-3.8.28
 yara-4.5.5
 zbar-0.23.93
 zsh-5.9
 zsh-autosuggestions-0.7.1
+zsh-history-clean
 zstd-1.5.7-bin
 ```
 
 ## uv tools
 
 ```
+aqtinstall v3.3.0
+- aqt
 ```
 
 ## Ruby gems (user)

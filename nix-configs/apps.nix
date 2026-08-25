@@ -15,7 +15,6 @@
     pkgs.coreutils # The basic file, shell and text manipulation utilities of the GNU operating system
     unstablePkgs.devenv # Fast, Declarative, Reproducible, and Composable Developer Environments
     pkgs.dig # DNS lookup utility
-    pkgs.docker-compose # Docker CLI plugin to define and run multi-container applications with Docker
     pkgs.ext4fuse # FUSE driver for ext2, 3, and 4
     pkgs.fasttext # Library for text classification and representation learning
     pkgs.fdupes # Identifies duplicate files residing within specified directories
@@ -67,7 +66,10 @@
     masApps = {
       # "App" = 123456;
     };
-    onActivation.cleanup = "zap"; # clean whenever we rebuild
+    onActivation.cleanup = "none"; # don't auto-prune; run `brew cleanup` manually when wanted
+    #onActivation.cleanup = "zap";   # "uninstall" or "zap" to also delete leftover app data
+    onActivation.autoUpdate = false; # don't refresh brew catalog on rebuild
+    onActivation.upgrade = false; # nix installs, but never upgrades; bump manually with `brew upgrade <pkg>`
   };
 
   programs.zsh = {

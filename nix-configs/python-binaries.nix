@@ -51,7 +51,6 @@ let
       (pkgs.python313.withPackages (
         ps: with ps; [
           pyqt6
-          deep-translator
         ]
       ))
     ];
@@ -62,7 +61,19 @@ let
       chmod +x $out/bin/translate-gui
     '';
   };
-  
+
+  # Remove multi-line `git commit` entries from zsh history (dry-run by default)
+  zsh-history-clean = pkgs.stdenv.mkDerivation {
+    name = "zsh-history-clean";
+    buildInputs = [ pkgs.python313 ];
+    unpackPhase = "true";
+    installPhase = ''
+      mkdir -p $out/bin
+      cp ${../scripts/zsh_history_clean.py} $out/bin/zsh-history-clean
+      chmod +x $out/bin/zsh-history-clean
+    '';
+  };
+
 in
 
 {
@@ -71,5 +82,6 @@ in
     update-ssh-config
     serial-port-list
     translate-gui
+    zsh-history-clean
   ];
 }

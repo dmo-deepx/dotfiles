@@ -34,11 +34,11 @@ in
     { app = "/Applications/Visual Studio Code.app"; }
     { app = "/Applications/Phoenix Slides.app"; }
     {
-      app = "/Users/david.morris/Library/Application Support/Autodesk/webdeploy/production/42b8d7cb7630f307bd514d9fc6eca5f495fa798c/Autodesk Fusion.app";
+      app = "/Users/david.morris/Library/Application Support/Autodesk/webdeploy/production/5b508d94493ed3344e38945ffca1b03b713ee401/Autodesk Fusion.app";
     }
     { app = "/Applications/KiCad/KiCad.app"; }
     { app = "/Applications/QCAD-Pro.app"; }
-    { app = "/Applications/QGIS-final-4_0_0.app"; }
+    { app = "/Applications/QGIS-final-4_2_0.app"; }
 
   ];
 
@@ -47,6 +47,9 @@ in
     pkgs.gnupg # GNU Privacy Guard
     pkgs.pinentry_mac # Pinentry for GPG on macOS
     pkgs.trivy # Simple and comprehensive vulnerability scanner for containers
+
+    pkgs.iproute2mac # provides the Linux-style `ip` command on macOS (maps to ifconfig/netstat)
+    pkgs.grc # Generic colouriser — colorizes `ip`/`ifconfig`/`netstat`/etc. output
 
     #pkgs.slack # Slack is a communication platform with a desktop application based on Electron
     pkgs.localsend
@@ -57,12 +60,44 @@ in
     #
     pkgs.gcc-arm-embedded # GNU Arm toolchain (gcc, gdb, newlib, etc.)
 
+    pkgs.wireviz # Document cables/wiring harnesses from YAML (graphviz bundled)
+
+
     # Not compatible yet with darwin:
     #
     # pkgs.mucommander
     # pkgs.multivnc
     # pkgs.qgis-ltr
+    # pkgs.handbrake # Tool for converting video files and ripping DVDs.
   ];
+
+  # --- SSH login notifier (Pushover) ---------------------------------------
+  # Fires on interactive / remote-command SSH logins to this account: sshd runs
+  # /etc/ssh/sshrc via /bin/sh for each session (unless ~/.ssh/rc exists, which
+  # would override it, or a bare sftp/scp-only session, which skips sshrc).
+  # The login keychain isn't reachable from an SSH session, so creds live in a
+  # chmod-600 file OUTSIDE the nix store (the store is world-readable):
+  #   ~/.config/pushover.env  ->  PUSHOVER_API_TOKEN=... / PUSHOVER_USER_KEY=...
+  # The hook safely no-ops (exit 0) if that file is absent or its values empty.
+  environment.etc."ssh/sshrc".text = ''
+    # Managed by nix-darwin (user-specific/david.morris/config.nix) - do not edit.
+    creds="$HOME/.config/pushover.env"
+    [ -r "$creds" ] || exit 0
+    . "$creds"
+    [ -n "$PUSHOVER_API_TOKEN" ] && [ -n "$PUSHOVER_USER_KEY" ] || exit 0
+    from="''${SSH_CONNECTION%% *}"
+    host="$(hostname -s 2>/dev/null || hostname)"
+    who="$(id -un 2>/dev/null || echo "$USER")"
+    when="$(date '+%Y-%m-%d %H:%M:%S')"
+    nohup /usr/bin/curl -s --connect-timeout 3 --max-time 8 \
+      --form-string "token=$PUSHOVER_API_TOKEN" \
+      --form-string "user=$PUSHOVER_USER_KEY" \
+      --form-string "title=SSH login on $host" \
+      --form-string "priority=1" \
+      --form-string "message=SSH login: $who@$host from ''${from:-unknown} at $when" \
+      https://api.pushover.net/1/messages.json >/dev/null 2>&1 &
+    exit 0
+  '';
 
   homebrew = {
     brews = [
@@ -84,6 +119,14 @@ in
       "shellcheck" # Static analysis and lint tool, for (ba)sh scripts
       "pigz" # Parallel gzip
       "gerbv" # Gerber (RS-274X) viewer
+      "ripgrep" # Search tool like grep and The Silver Searcher
+      "socat"
+      "glow" # Render markdown on the CLI
+      "ninja"
+      "nasm"
+      "autoconf"
+      "automake"
+      "libtool"
 
       #"mac-mouse-fix"
     ];
@@ -91,7 +134,6 @@ in
     casks = [
       "appcleaner" # App Cleaner and Uninstaller
       "bitwarden" # Password manager
-      "docker-desktop" # Docker Desktop
       "gimp" # Image editing
       "hot"
       "keka" # File archiving and backup tool
@@ -117,6 +159,9 @@ in
       "stats" # System monitoring tool
       "vnc-viewer" # Remote desktop application focusing on security
       "raspberry-pi-imager" # Imaging utility to install operating systems to a microSD card
+
+      "handbrake-app" # Tool for converting video files and ripping DVDs.
+      "qlmarkdown"
 
       # Doesn't work, probably blocked:
       # "jordanbaird-ice" # Menu bar manager

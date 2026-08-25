@@ -6,6 +6,40 @@ alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 alias nano='nano -c'
 alias 7z='7zz'
 
+# grc colourisers (needs `grc` + `iproute2mac`, installed via nix).
+# `--colour=auto` => coloured in the terminal, plain when piped/redirected.
+# Networking
+alias ip='grc --colour=auto ip'             # Linux-style `ip a` via iproute2mac
+alias ifconfig='grc --colour=auto ifconfig' # native macOS ifconfig
+alias ping='grc --colour=auto ping'
+alias ping6='grc --colour=auto ping6'
+alias traceroute='grc --colour=auto traceroute'
+alias traceroute6='grc --colour=auto traceroute6'
+alias mtr='grc --colour=auto mtr'
+alias netstat='grc --colour=auto netstat'
+alias dig='grc --colour=auto dig'
+alias whois='grc --colour=auto whois'
+alias nmap='grc --colour=auto nmap'
+alias tcpdump='grc --colour=auto tcpdump'
+# System / disk
+alias ps='grc --colour=auto ps'
+alias df='grc --colour=auto df'
+alias du='grc --colour=auto du'
+alias mount='grc --colour=auto mount'
+alias stat='grc --colour=auto stat'
+alias id='grc --colour=auto id'
+alias last='grc --colour=auto last'
+alias uptime='grc --colour=auto uptime'
+alias env='grc --colour=auto env'           # note: colours the KEY=VALUE listing; drop if `env FOO=bar cmd` looks odd
+alias sysctl='grc --colour=auto sysctl'
+alias iostat='grc --colour=auto iostat'
+alias lsof='grc --colour=auto lsof'
+# Dev / build
+alias gcc='grc --colour=auto gcc'
+alias make='grc --colour=auto make'
+alias diff='grc --colour=auto diff'
+alias curl='grc --colour=auto curl'         # note: colours headers/JSON; drop if download progress bars look odd
+
 # GitHub
 alias gs='git status'
 alias ga='git add -A'
@@ -45,7 +79,10 @@ alias nixupdate="nix flake update --flake $HOME/.dotfiles/nix-configs"
 alias nixgc="nix-collect-garbage -d"
 
 # Dmo aliases
-alias vm="ssh vm067a"
+alias vm="ssh vml32"
 alias spl="serial-port-list"
 alias xlate="translate-gui"
+alias hclean="zsh-history-clean"
 alias ffs="fastfetch -c ~/.dotfiles/user-specific/david.morris/fastfetch.jsonc"
+alias npl_bs="ssh -b 10.20.30.50 root@10.20.30.30"
+alias npl_d6="ssh -b 10.20.30.50 field@10.20.30.42"

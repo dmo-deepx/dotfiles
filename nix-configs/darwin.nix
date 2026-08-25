@@ -43,7 +43,7 @@
       autohide = false;
       orientation = "bottom";
       tilesize = 32;
-      minimize-to-application = true;
+      minimize-to-application = false;
       show-recents = false;
       # Disable hot corners
       wvous-tl-corner = 6;

@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 
 import base64
+import json
 import sys
+import urllib.error
+import urllib.parse
+import urllib.request
 from PyQt6.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QHBoxLayout,
     QTextEdit, QPushButton, QLabel,
 )
 from PyQt6.QtCore import Qt, QThread, QByteArray, pyqtSignal
 from PyQt6.QtGui import QKeySequence, QShortcut, QPalette, QColor, QIcon, QPixmap
-from deep_translator import GoogleTranslator
 
 # icon.svg embedded as base64 so the project is a single file
 _ICON_B64 = (
@@ -114,6 +117,99 @@ def _monokai_palette() -> QPalette:
     return p
 
 
+# deep_translator scraped translate.google.com/m, which now answers every
+# request with an "Error 500 (Server Error)" page. This is the endpoint
+# Chrome's built-in translator uses; it still speaks plain HTTP, and unlike
+# translate.googleapis.com it does not 429 requests made from Python.
+_ENDPOINT = "https://clients5.google.com/translate_a/t"
+_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
+_TIMEOUT = 20
+_MAX_CHARS = 4000  # split longer input so each POST stays well inside limits
+
+
+class TranslationError(RuntimeError):
+    """Raised with a message that is fit to show in the UI."""
+
+
+def _chunks(text: str, limit: int = _MAX_CHARS):
+    """Split on line boundaries, falling back to hard cuts for huge lines."""
+    if len(text) <= limit:
+        yield text
+        return
+    buf = ""
+    for line in text.splitlines(keepends=True):
+        while len(line) > limit:
+            if buf:
+                yield buf
+                buf = ""
+            yield line[:limit]
+            line = line[limit:]
+        if len(buf) + len(line) > limit:
+            yield buf
+            buf = ""
+        buf += line
+    if buf:
+        yield buf
+
+
+def _parse(payload) -> tuple[str, str]:
+    """sl=auto answers [[translated, detected]]; unwrap defensively."""
+    node = payload
+    while isinstance(node, list) and node and isinstance(node[0], list):
+        node = node[0]
+    if isinstance(node, str):
+        return node, ""
+    if isinstance(node, list) and node and isinstance(node[0], str):
+        return node[0], node[1] if len(node) > 1 and isinstance(node[1], str) else ""
+    raise TranslationError("Google returned a response in an unexpected shape.")
+
+
+def _translate_chunk(text: str, target: str) -> tuple[str, str]:
+    url = _ENDPOINT + "?" + urllib.parse.urlencode(
+        {"client": "dict-chrome-ex", "sl": "auto", "tl": target}
+    )
+    # POST rather than GET: query strings break down past ~1000 CJK characters.
+    request = urllib.request.Request(
+        url,
+        data=urllib.parse.urlencode({"q": text}).encode("utf-8"),
+        headers={
+            "User-Agent": _USER_AGENT,
+            "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
+        },
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=_TIMEOUT) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        if exc.code == 429:
+            raise TranslationError(
+                "Google is rate limiting this machine — wait a minute and retry."
+            ) from exc
+        raise TranslationError(f"Google returned HTTP {exc.code}.") from exc
+    except urllib.error.URLError as exc:
+        raise TranslationError(f"Could not reach Google Translate: {exc.reason}") from exc
+    except (json.JSONDecodeError, UnicodeDecodeError) as exc:
+        raise TranslationError("Google returned an unreadable response.") from exc
+    return _parse(payload)
+
+
+def translate(text: str, target: str) -> tuple[str, str]:
+    """Translate text into target; returns (translation, detected source)."""
+    parts: list[str] = []
+    detected = ""
+    for chunk in _chunks(text):
+        translated, lang = _translate_chunk(chunk, target)
+        # Google trims whitespace off each chunk, which would weld the last
+        # line of one chunk onto the first line of the next.
+        trailing = chunk[len(chunk.rstrip()):]
+        parts.append(translated.rstrip() + trailing)
+        detected = detected or lang
+    return "".join(parts), detected
+
+
 class TranslateWorker(QThread):
     result_en = pyqtSignal(str)
     result_ja = pyqtSignal(str)
@@ -125,12 +221,19 @@ class TranslateWorker(QThread):
 
     def run(self):
         try:
-            en = GoogleTranslator(source="auto", target="en").translate(self.text)
-            ja = GoogleTranslator(source="auto", target="ja").translate(self.text)
-            self.result_en.emit(en or "")
-            self.result_ja.emit(ja or "")
-        except Exception as exc:
+            en, detected = translate(self.text, "en")
+            self.result_en.emit(en)
+            if detected == "ja":
+                # Input is already Japanese — a ja->ja round trip only costs a
+                # request and paraphrases the user's own wording back at them.
+                self.result_ja.emit(self.text)
+            else:
+                ja, _ = translate(self.text, "ja")
+                self.result_ja.emit(ja)
+        except TranslationError as exc:
             self.error.emit(str(exc))
+        except Exception as exc:  # network stacks throw a wide variety
+            self.error.emit(f"{type(exc).__name__}: {exc}")
 
 
 class XlateWindow(QWidget):
