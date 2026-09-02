@@ -32,7 +32,7 @@ in
     { app = "/Applications/Zed.app"; }
     { app = "/Applications/Nix Apps/iTerm2.app"; }
     { app = "/Applications/Visual Studio Code.app"; }
-    { app = "/Applications/Phoenix Slides.app"; }
+    { app = "/Applications/pixet.app"; }
     {
       app = "/Users/david.morris/Library/Application Support/Autodesk/webdeploy/production/5b508d94493ed3344e38945ffca1b03b713ee401/Autodesk Fusion.app";
     }
@@ -127,6 +127,7 @@ in
       "autoconf"
       "automake"
       "libtool"
+      "rclone"
 
       #"mac-mouse-fix"
     ];

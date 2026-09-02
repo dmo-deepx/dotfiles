@@ -81,6 +81,7 @@ alias nixgc="nix-collect-garbage -d"
 # Dmo aliases
 alias vm="ssh vml32"
 alias spl="serial-port-list"
+alias shd="serial-hexdump"
 alias xlate="translate-gui"
 alias hclean="zsh-history-clean"
 alias ffs="fastfetch -c ~/.dotfiles/user-specific/david.morris/fastfetch.jsonc"

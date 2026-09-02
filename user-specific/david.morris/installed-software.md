@@ -1,6 +1,6 @@
 # Installed software — dmo-m2
 
-_Generated 2026-08-24 19:53:01 · macOS 26.5.2 (arm64)_
+_Generated 2026-09-02 19:53:01 · macOS 26.5.2 (arm64)_
 
 Dates are install/added dates where the package manager exposes them.
 
@@ -17,7 +17,7 @@ Dates are install/added dates where the package manager exposes them.
 2026-07-10  DisplayLink Manager                      16.0.16
 2026-07-10  FTDIUSBSerialVCPDextInstaller            1.6
 2026-07-10  GIMP                                     3.2.4
-2026-07-10  Google Chrome                            151.0.7922.170
+2026-07-10  Google Chrome                            152.0.7977.66
 2026-07-10  Greenshot                                1.2.19
 2026-07-10  Hot                                      1.9.4
 2026-07-10  Keka                                     1.6.7
@@ -40,7 +40,7 @@ Dates are install/added dates where the package manager exposes them.
 2026-07-10  VLC                                      3.0.23
 2026-07-10  VNC Viewer                               7.15.1
 2026-07-10  WaveForms                                3.25.1
-2026-07-10  Zed                                      1.16.1
+2026-07-10  Zed                                      1.17.2
 2026-07-10  ZeroTier                                 1.16.1
 2026-07-10  foobar2000                               2.25.10
 2026-07-10  geoviz-jfe-mac-dev                       1.7.1-89
@@ -58,21 +58,23 @@ Dates are install/added dates where the package manager exposes them.
 2026-08-12  Autodesk Fusion                          2704.1.53
 2026-08-12  Autodesk Fusion Service Utility          2704.1.53
 2026-08-12  Remove Autodesk Fusion                   2704.1.53
-2026-08-16  Microsoft Outlook                        16.112
 2026-08-16  Microsoft Teams                          26213.1006.5011.1671
-2026-08-19  Microsoft Excel                          16.112.1
-2026-08-19  Microsoft OneNote                        16.112.1
-2026-08-19  Microsoft PowerPoint                     16.112.1
-2026-08-19  Microsoft Word                           16.112.1
 2026-08-19  Visual Studio Code                       1.133.0
 2026-08-20  Google Docs                              130.0
 2026-08-20  Google Drive                             130.0
 2026-08-20  Google Sheets                            130.0
 2026-08-20  Google Slides                            130.0
-2026-08-21  Claude                                   1.34493.1
 2026-08-21  Microsoft Defender                       101.26062.0012
-2026-08-21  OneDrive                                 26.145.0728
-2026-08-23  pixet                                    1.2.1
+2026-08-27  Swift Salamander                         0.8.63
+2026-09-01  Claude                                   1.40609.1
+2026-09-02  Microsoft Excel                          16.112.3
+2026-09-02  Microsoft OneNote                        16.112.3
+2026-09-02  Microsoft Outlook                        16.112.3
+2026-09-02  Microsoft PowerPoint                     16.112.3
+2026-09-02  Microsoft Word                           16.112.3
+2026-09-02  OneDrive                                 26.153.0809
+2026-09-02  Totality                                 0.1.0
+2026-09-02  pixet                                    1.4.1
 ```
 
 ## Homebrew formulae
@@ -202,6 +204,7 @@ Dates are install/added dates where the package manager exposes them.
 2026-08-11  m4                             1.4.21
 2026-08-11  nasm                           3.02
 2026-08-11  ninja                          1.13.2
+2026-08-27  rclone                         1.74.4
 ```
 
 ## Homebrew casks
@@ -239,7 +242,7 @@ Dates are install/added dates where the package manager exposes them.
 
 ## nix-darwin system packages
 
-_System generation built 2026-08-17 · no per-package dates in nix._
+_System generation built 2026-08-27 · no per-package dates in nix._
 
 ```
 7zz-25.01

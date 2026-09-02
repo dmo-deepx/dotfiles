@@ -44,6 +44,24 @@ let
     '';
   };
 
+  # Live hexdump of an incoming serial stream
+  serial-hexdump = pkgs.stdenv.mkDerivation {
+    name = "serial-hexdump";
+    buildInputs = [
+      (pkgs.python313.withPackages (
+        ps: with ps; [
+          pyserial
+        ]
+      ))
+    ];
+    unpackPhase = "true";
+    installPhase = ''
+      mkdir -p $out/bin
+      cp ${../scripts/serial_hexdump.py} $out/bin/serial-hexdump
+      chmod +x $out/bin/serial-hexdump
+    '';
+  };
+
   # Quick GUI for translating JA <-> EN
   translate-gui = pkgs.stdenv.mkDerivation {
     name = "translate-gui";
@@ -81,6 +99,7 @@ in
     securepass
     update-ssh-config
     serial-port-list
+    serial-hexdump
     translate-gui
     zsh-history-clean
   ];

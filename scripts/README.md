@@ -26,3 +26,13 @@ See `VALID_SSH_OPTIONS` if you want to add additional fields.
 
 ## `serial_port_list.py`
 Output a list of available serial ports and their descriptions.
+
+## `serial_hexdump.py`
+Open a serial port and hexdump the incoming bytes as they arrive, unbuffered.
+
+The packaged binary is named `serial-hexdump`, with `shd` as a zsh alias.
+
+Defaults to 115200 8N1 and to the only attached port, so `shd` on its own is
+usually enough. `shd -l` lists the ports. A quiet gap of `--idle` seconds (0.25
+by default) ends the current row, which keeps framed traffic readable one frame
+per row group. `--save FILE` tees the raw bytes to disk while you watch.
