@@ -1,6 +1,6 @@
 # Installed software — dmo-m2
 
-_Generated 2026-09-02 19:53:01 · macOS 26.5.2 (arm64)_
+_Generated 2026-09-15 19:53:00 · macOS 26.6.2 (arm64)_
 
 Dates are install/added dates where the package manager exposes them.
 
@@ -8,73 +8,73 @@ Dates are install/added dates where the package manager exposes them.
 
 ```
 2026-04-22  Claude Code URL Handler                  
-2026-06-24  Safari                                   26.5.2
-2026-07-10  AppCleaner                               3.6.8
-2026-07-10  Bitwarden                                2026.6.1
-2026-07-10  Blender                                  5.1.2
-2026-07-10  CodexBar                                 0.44.0
-2026-07-10  Disk Inventory X                         1.3
-2026-07-10  DisplayLink Manager                      16.0.16
-2026-07-10  FTDIUSBSerialVCPDextInstaller            1.6
-2026-07-10  GIMP                                     3.2.4
-2026-07-10  Google Chrome                            152.0.7977.66
-2026-07-10  Greenshot                                1.2.19
-2026-07-10  Hot                                      1.9.4
-2026-07-10  Keka                                     1.6.7
-2026-07-10  LTspice                                  26.0.2.1
-2026-07-10  LanguageTool for Desktop                 3.1.2
-2026-07-10  Maccy                                    2.6.1
-2026-07-10  MenuMeters                               2.1.6.1
-2026-07-10  Notion                                   7.25.1
-2026-07-10  OpenMV IDE                               4.8.9
-2026-07-10  Phoenix Slides                           1.6.2
-2026-07-10  PicoScope 7 T&M                          7.2.19
-2026-07-10  QCAD-Pro                                 3.32
-2026-07-10  QGroundControl                           5.0
-2026-07-10  Quick Camera                             1.5.0
-2026-07-10  Raspberry Pi Imager                      v2.0.10
-2026-07-10  Saleae Logic                             2.4.44
-2026-07-10  Slack                                    4.50.140
-2026-07-10  Stats                                    3.0.8
-2026-07-10  Tiles                                    1.3.2
-2026-07-10  VLC                                      3.0.23
-2026-07-10  VNC Viewer                               7.15.1
-2026-07-10  WaveForms                                3.25.1
-2026-07-10  Zed                                      1.17.2
-2026-07-10  ZeroTier                                 1.16.1
-2026-07-10  foobar2000                               2.25.10
-2026-07-10  geoviz-jfe-mac-dev                       1.7.1-89
-2026-07-10  muCommander                              1.6.0
-2026-07-13  Company Portal                           5.2606.0
 2026-07-13  OpenVPN Connect                          3.8.2
-2026-07-13  QGIS-final-4_2_0                         4.2.0
-2026-07-14  XCTU                                     
-2026-07-28  Git Lineage                              0.9.4
-2026-08-07  HandBrake                                1.11.2
-2026-08-07  Parallels Desktop                        26.4.1
-2026-08-07  Whisky                                   2.3.5
-2026-08-11  Microsoft 365 Copilot                    1.2608
-2026-08-11  QLMarkdown                               1.5.2
-2026-08-12  Autodesk Fusion                          2704.1.53
-2026-08-12  Autodesk Fusion Service Utility          2704.1.53
-2026-08-12  Remove Autodesk Fusion                   2704.1.53
-2026-08-16  Microsoft Teams                          26213.1006.5011.1671
-2026-08-19  Visual Studio Code                       1.133.0
-2026-08-20  Google Docs                              130.0
-2026-08-20  Google Drive                             130.0
-2026-08-20  Google Sheets                            130.0
-2026-08-20  Google Slides                            130.0
-2026-08-21  Microsoft Defender                       101.26062.0012
-2026-08-27  Swift Salamander                         0.8.63
-2026-09-01  Claude                                   1.40609.1
-2026-09-02  Microsoft Excel                          16.112.3
-2026-09-02  Microsoft OneNote                        16.112.3
-2026-09-02  Microsoft Outlook                        16.112.3
-2026-09-02  Microsoft PowerPoint                     16.112.3
-2026-09-02  Microsoft Word                           16.112.3
-2026-09-02  OneDrive                                 26.153.0809
-2026-09-02  Totality                                 0.1.0
-2026-09-02  pixet                                    1.4.1
+2026-08-12  Safari                                   26.6.2
+2026-09-04  AppCleaner                               3.6.8
+2026-09-04  Bitwarden                                2026.6.1
+2026-09-04  Blender                                  5.1.2
+2026-09-04  CodexBar                                 0.44.0
+2026-09-04  Company Portal                           5.2608.0
+2026-09-04  Disk Inventory X                         1.3
+2026-09-04  DisplayLink Manager                      16.0.16
+2026-09-04  FTDIUSBSerialVCPDextInstaller            1.6
+2026-09-04  GIMP                                     3.2.4
+2026-09-04  Git Lineage                              0.9.4
+2026-09-04  Google Chrome                            152.0.7977.84
+2026-09-04  Greenshot                                1.2.19
+2026-09-04  HandBrake                                1.11.2
+2026-09-04  Hot                                      1.9.4
+2026-09-04  Keka                                     1.6.7
+2026-09-04  LTspice                                  26.0.2.1
+2026-09-04  LanguageTool for Desktop                 3.1.2
+2026-09-04  Maccy                                    2.6.1
+2026-09-04  MenuMeters                               2.1.6.1
+2026-09-04  Microsoft 365 Copilot                    1.2608
+2026-09-04  Microsoft Defender                       101.26062.0012
+2026-09-04  Microsoft Outlook                        16.112.3
+2026-09-04  Microsoft Teams                          26225.1704.5081.2906
+2026-09-04  Notion                                   7.25.1
+2026-09-04  OpenMV IDE                               4.8.9
+2026-09-04  Parallels Desktop                        26.4.1
+2026-09-04  Phoenix Slides                           1.6.2
+2026-09-04  PicoScope 7 T&M                          7.2.19
+2026-09-04  QCAD-Pro                                 3.32
+2026-09-04  QGIS-final-4_2_0                         4.2.0
+2026-09-04  QGroundControl                           5.0
+2026-09-04  QLMarkdown                               1.5.2
+2026-09-04  Quick Camera                             1.5.0
+2026-09-04  Raspberry Pi Imager                      v2.0.10
+2026-09-04  Saleae Logic                             2.4.44
+2026-09-04  Stats                                    3.0.8
+2026-09-04  Swift Salamander                         0.8.63
+2026-09-04  Tiles                                    1.3.2
+2026-09-04  Totality                                 0.1.0
+2026-09-04  VLC                                      3.0.23
+2026-09-04  VNC Viewer                               7.15.1
+2026-09-04  Visual Studio Code                       1.136.1
+2026-09-04  WaveForms                                3.25.1
+2026-09-04  Whisky                                   2.3.5
+2026-09-04  XCTU                                     4.6
+2026-09-04  Zed                                      1.19.2
+2026-09-04  ZeroTier                                 1.16.1
+2026-09-04  foobar2000                               2.25.10
+2026-09-04  geoviz-jfe-mac-dev                       1.7.1-89
+2026-09-04  muCommander                              1.6.0
+2026-09-04  pixet                                    1.4.1
+2026-09-08  Autodesk Fusion                          2705.1.11
+2026-09-08  Autodesk Fusion Service Utility          2705.1.11
+2026-09-08  Remove Autodesk Fusion                   2705.1.11
+2026-09-08  Slack                                    4.51.180
+2026-09-10  Google Docs                              131.0
+2026-09-10  Google Drive                             131.0
+2026-09-10  Google Sheets                            131.0
+2026-09-10  Google Slides                            131.0
+2026-09-10  Microsoft Excel                          16.112.4
+2026-09-10  Microsoft OneNote                        16.112.4
+2026-09-10  Microsoft PowerPoint                     16.112.4
+2026-09-10  Microsoft Word                           16.112.4
+2026-09-10  OneDrive                                 26.158.0816
+2026-09-14  Claude                                   1.52386.6
 ```
 
 ## Homebrew formulae
@@ -242,7 +242,7 @@ Dates are install/added dates where the package manager exposes them.
 
 ## nix-darwin system packages
 
-_System generation built 2026-08-27 · no per-package dates in nix._
+_System generation built 2026-09-08 · no per-package dates in nix._
 
 ```
 7zz-25.01
@@ -298,6 +298,7 @@ python3.13-speedtest-cli-2.1.3
 qrencode-4.1.1-bin
 rsync-3.4.1
 securepass
+serial-hexdump
 serial-port-list
 skhd-0.3.9
 smartmontools-7.5
